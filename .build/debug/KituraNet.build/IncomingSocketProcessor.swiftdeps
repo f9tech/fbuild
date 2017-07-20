@@ -1,0 +1,69 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IncomingSocketProcessor"
+provides-nominal:
+- "P9KituraNet23IncomingSocketProcessor"
+provides-member:
+- ["P9KituraNet23IncomingSocketProcessor", ""]
+depends-top-level:
+- "Bool"
+- "IncomingSocketHandler"
+- "IncomingSocketProcessor"
+- "Int"
+- "NSData"
+- "TimeInterval"
+- "UnsafeRawPointer"
+depends-member:
+- ["P9KituraNet23IncomingSocketProcessor", "Bool"]
+- ["P9KituraNet23IncomingSocketProcessor", "IncomingSocketHandler"]
+- ["P9KituraNet23IncomingSocketProcessor", "Int"]
+- ["P9KituraNet23IncomingSocketProcessor", "NSData"]
+- ["P9KituraNet23IncomingSocketProcessor", "TimeInterval"]
+- ["P9KituraNet23IncomingSocketProcessor", "UnsafeRawPointer"]
+- ["P9KituraNet23IncomingSocketProcessor", "close"]
+- ["P9KituraNet23IncomingSocketProcessor", "handler"]
+- ["P9KituraNet23IncomingSocketProcessor", "inProgress"]
+- ["P9KituraNet23IncomingSocketProcessor", "keepAliveUntil"]
+- ["P9KituraNet23IncomingSocketProcessor", "process"]
+- ["P9KituraNet23IncomingSocketProcessor", "socketClosed"]
+- ["P9KituraNet23IncomingSocketProcessor", "write"]
+depends-nominal:
+- "P9KituraNet23IncomingSocketProcessor"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/LoggerAPI.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/SSLService.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Signals.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Socket.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CEpoll.git--3614378031317191001/shim.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/http_parser.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/utils.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CCurl.git--2633223519878939690/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CEpoll.git--3614378031317191001/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/OpenSSL.git-4290884160847462041/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "29a5e2744585670a4459283754f1bebe"

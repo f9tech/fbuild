@@ -1,0 +1,5 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "aa8b6ff2597e6b777036d0db7d1e40df"
+build_time: [553760483, 903277000]
+inputs:
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-Markdown--819235862635121594/Sources/KituraMarkdown/KituraMarkdown.swift": [553760462, 0]

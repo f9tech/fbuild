@@ -1,0 +1,7 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "c49c193724efd44a8ef2168bb2a40fd2"
+build_time: [553760463, 632519000]
+inputs:
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BlueSocket.git-3972740290512423602/Sources/SocketUtils.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BlueSocket.git-3972740290512423602/Sources/Socket.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BlueSocket.git-3972740290512423602/Sources/SocketProtocols.swift": [553760462, 0]

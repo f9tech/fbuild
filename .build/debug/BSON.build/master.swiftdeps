@@ -1,0 +1,21 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "d34e409b15e17d2d617171a8ec68b1cd"
+build_time: [553760471, 751739000]
+inputs:
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Error.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Document+Validation.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Document+Operators.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Decimal.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Helpers.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Document+ParsingSupport.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/BSONPrimitive.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Index.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/EmbeddedDocuments.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Document+Conversion.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Document+Subscripts.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Document+Flattening.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Document.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/ObjectId.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/RegularExpression.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Optional+BSON.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BSON.git-8413846787255354624/Sources/BSON/Interpreting.swift": [553760462, 0]

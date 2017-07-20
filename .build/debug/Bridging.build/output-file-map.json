@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/master.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Bridging.git-6648948278404558280/Sources/Bridging/Bridging.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/Bridging.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/Bridging.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/Bridging~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/Bridging.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Bridging.git-6648948278404558280/Sources/Bridging/FoundationAdapterLinux.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterLinux.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterLinux.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterLinux~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterLinux.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Bridging.git-6648948278404558280/Sources/Bridging/FoundationAdapterNonLinux.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterNonLinux.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterNonLinux.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterNonLinux~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterNonLinux.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Bridging.git-6648948278404558280/Sources/Bridging/FoundationAdapterProtocol.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterProtocol.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterProtocol.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterProtocol~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.build/FoundationAdapterProtocol.swiftdeps"
+  }
+}

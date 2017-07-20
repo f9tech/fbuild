@@ -1,0 +1,7 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "603c6dafe2547156a271758dd4356b56"
+build_time: [553760463, 637593000]
+inputs:
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/KittenCore.git--7978118480123337798/Sources/NumberConversion.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/KittenCore.git--7978118480123337798/Sources/KittenString.swift": [553760462, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/KittenCore.git--7978118480123337798/Sources/Core.swift": [553760462, 0]

@@ -1,0 +1,5 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "b72a5de4c09bdda1302bd45978c587b5"
+build_time: [553844169, 600227000]
+inputs:
+  "/home/sravani/Desktop/shanmukha/Sources/KituraSampleRouter/RouterCreator.swift": [553843725, 0]

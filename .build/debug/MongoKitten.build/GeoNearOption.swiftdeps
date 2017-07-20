@@ -1,0 +1,202 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GeoNearOptions"
+provides-nominal:
+- "V11MongoKitten14GeoNearOptions"
+provides-member:
+- ["V11MongoKitten14GeoNearOptions", ""]
+depends-top-level:
+- "AssignmentPrecedence"
+- "BSON"
+- "Bool"
+- !private "Dictionary"
+- "Document"
+- "Double"
+- "GeoNearOptions"
+- "Int"
+- "Point"
+- "Query"
+- "String"
+- !private "StringLiteralType"
+- "ValueConvertible"
+depends-member:
+- !private ["Ps10Comparable", "init"]
+- ["P10KittenCore11Convertible", "convert"]
+- !private ["P10KittenCore11Convertible", "distanceField"]
+- !private ["P10KittenCore11Convertible", "distanceMultiplier"]
+- !private ["P10KittenCore11Convertible", "includeLocs"]
+- !private ["P10KittenCore11Convertible", "init"]
+- !private ["P10KittenCore11Convertible", "limit"]
+- ["P10KittenCore11Convertible", "makeBinary"]
+- !private ["P10KittenCore11Convertible", "makeDocument"]
+- ["P10KittenCore11Convertible", "makePrimitive"]
+- !private ["P10KittenCore11Convertible", "maxDistance"]
+- !private ["P10KittenCore11Convertible", "minDistance"]
+- !private ["P10KittenCore11Convertible", "near"]
+- !private ["P10KittenCore11Convertible", "query"]
+- !private ["P10KittenCore11Convertible", "spherical"]
+- ["P10KittenCore11Convertible", "typeIdentifier"]
+- !private ["P10KittenCore11Convertible", "uniqueDocs"]
+- ["P10KittenCore11Convertible", ""]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["P11MongoKitten23ExpressionRepresentable", "init"]
+- ["V11MongoKitten14GeoNearOptions", "BSON"]
+- ["V11MongoKitten14GeoNearOptions", "Bool"]
+- ["V11MongoKitten14GeoNearOptions", "Document"]
+- ["V11MongoKitten14GeoNearOptions", "Double"]
+- ["V11MongoKitten14GeoNearOptions", "Int"]
+- ["V11MongoKitten14GeoNearOptions", "Point"]
+- ["V11MongoKitten14GeoNearOptions", "Query"]
+- ["V11MongoKitten14GeoNearOptions", "String"]
+- ["V11MongoKitten14GeoNearOptions", "convert"]
+- ["V11MongoKitten14GeoNearOptions", "deinit"]
+- ["V11MongoKitten14GeoNearOptions", "distanceField"]
+- ["V11MongoKitten14GeoNearOptions", "distanceMultiplier"]
+- ["V11MongoKitten14GeoNearOptions", "includeLocs"]
+- ["V11MongoKitten14GeoNearOptions", "init"]
+- ["V11MongoKitten14GeoNearOptions", "limit"]
+- ["V11MongoKitten14GeoNearOptions", "makeBinary"]
+- ["V11MongoKitten14GeoNearOptions", "makeDocument"]
+- ["V11MongoKitten14GeoNearOptions", "makePrimitive"]
+- ["V11MongoKitten14GeoNearOptions", "maxDistance"]
+- ["V11MongoKitten14GeoNearOptions", "minDistance"]
+- ["V11MongoKitten14GeoNearOptions", "near"]
+- ["V11MongoKitten14GeoNearOptions", "query"]
+- ["V11MongoKitten14GeoNearOptions", "spherical"]
+- ["V11MongoKitten14GeoNearOptions", "typeIdentifier"]
+- ["V11MongoKitten14GeoNearOptions", "uniqueDocs"]
+- !private ["Ps8Hashable", "init"]
+- !private ["P10KittenCore12KittenString", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["P4BSON9Primitive", "convert"]
+- !private ["P4BSON9Primitive", "distanceField"]
+- !private ["P4BSON9Primitive", "distanceMultiplier"]
+- !private ["P4BSON9Primitive", "includeLocs"]
+- !private ["P4BSON9Primitive", "init"]
+- !private ["P4BSON9Primitive", "limit"]
+- ["P4BSON9Primitive", "makeBinary"]
+- !private ["P4BSON9Primitive", "makeDocument"]
+- ["P4BSON9Primitive", "makePrimitive"]
+- !private ["P4BSON9Primitive", "maxDistance"]
+- !private ["P4BSON9Primitive", "minDistance"]
+- !private ["P4BSON9Primitive", "near"]
+- !private ["P4BSON9Primitive", "query"]
+- !private ["P4BSON9Primitive", "spherical"]
+- ["P4BSON9Primitive", "typeIdentifier"]
+- !private ["P4BSON9Primitive", "uniqueDocs"]
+- ["P4BSON9Primitive", ""]
+- !private ["V11MongoKitten5Query", "deinit"]
+- !private ["P10KittenCore17SimpleConvertible", "init"]
+- !private ["P4BSON15SimplePrimitive", "init"]
+- !private ["SS", "init"]
+- !private ["P4BSON23SubscriptExpressionType", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P7Cheetah5Value", "init"]
+- ["P11MongoKitten16ValueConvertible", "convert"]
+- !private ["P11MongoKitten16ValueConvertible", "distanceField"]
+- !private ["P11MongoKitten16ValueConvertible", "distanceMultiplier"]
+- !private ["P11MongoKitten16ValueConvertible", "includeLocs"]
+- !private ["P11MongoKitten16ValueConvertible", "limit"]
+- ["P11MongoKitten16ValueConvertible", "makeBinary"]
+- !private ["P11MongoKitten16ValueConvertible", "makeDocument"]
+- ["P11MongoKitten16ValueConvertible", "makePrimitive"]
+- !private ["P11MongoKitten16ValueConvertible", "maxDistance"]
+- !private ["P11MongoKitten16ValueConvertible", "minDistance"]
+- !private ["P11MongoKitten16ValueConvertible", "near"]
+- !private ["P11MongoKitten16ValueConvertible", "query"]
+- !private ["P11MongoKitten16ValueConvertible", "spherical"]
+- ["P11MongoKitten16ValueConvertible", "typeIdentifier"]
+- !private ["P11MongoKitten16ValueConvertible", "uniqueDocs"]
+- ["P11MongoKitten16ValueConvertible", ""]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- !private "Ps10Comparable"
+- "P10KittenCore11Convertible"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P11MongoKitten23ExpressionRepresentable"
+- "V11MongoKitten14GeoNearOptions"
+- !private "Ps8Hashable"
+- !private "P10KittenCore12KittenString"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "P4BSON9Primitive"
+- !private "V11MongoKitten5Query"
+- !private "P10KittenCore17SimpleConvertible"
+- !private "P4BSON15SimplePrimitive"
+- !private "SS"
+- !private "P4BSON23SubscriptExpressionType"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P7Cheetah5Value"
+- "P11MongoKitten16ValueConvertible"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/BSON.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/GeoJSON.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KittenCore.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Cheetah.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Schrodinger.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/MongoSocket.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CryptoSwift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/KittenCTLS.git--3049334175900397724/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "74a3c4fdba5a646757e090ddd3bb7392"

@@ -1,0 +1,218 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Part"
+- "=="
+provides-nominal:
+- "V6Kitura4Part"
+- "OV6Kitura4Part10HeaderType"
+provides-member:
+- ["V6Kitura4Part", ""]
+- ["OV6Kitura4Part10HeaderType", ""]
+depends-top-level:
+- "=="
+- "Data"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "ParsedBody"
+- "Part"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["V10Foundation4Data", "init"]
+- ["Vs10Dictionary", "init"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["OV6Kitura4Part10HeaderType", "=="]
+- ["OV6Kitura4Part10HeaderType", "_toAnyHashable"]
+- ["OV6Kitura4Part10HeaderType", "deinit"]
+- ["OV6Kitura4Part10HeaderType", "disposition"]
+- ["OV6Kitura4Part10HeaderType", "hashValue"]
+- ["OV6Kitura4Part10HeaderType", "transferEncoding"]
+- ["OV6Kitura4Part10HeaderType", "type"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "hashValue"]
+- ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "init"]
+- ["O6Kitura10ParsedBody", "raw"]
+- ["V6Kitura4Part", "Data"]
+- ["V6Kitura4Part", "HeaderType"]
+- ["V6Kitura4Part", "ParsedBody"]
+- ["V6Kitura4Part", "String"]
+- ["V6Kitura4Part", "body"]
+- ["V6Kitura4Part", "filename"]
+- ["V6Kitura4Part", "headers"]
+- ["V6Kitura4Part", "init"]
+- ["V6Kitura4Part", "name"]
+- ["V6Kitura4Part", "type"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["P10Foundation20ReferenceConvertible", "init"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- ["Ps10_Indexable", "init"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- ["Ps17_MutableIndexable", "init"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "OV6Kitura4Part10HeaderType"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "P10SwiftyJSON17JSONSubscriptType"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "O6Kitura10ParsedBody"
+- "V6Kitura4Part"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "P10Foundation20ReferenceConvertible"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- "Ps17_MutableIndexable"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/LoggerAPI.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/SwiftyJSON.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/SSLService.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KituraTemplateEngine.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Signals.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KituraNet.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Socket.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CEpoll.git--3614378031317191001/shim.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/http_parser.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/utils.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CCurl.git--2633223519878939690/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CEpoll.git--3614378031317191001/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/OpenSSL.git-4290884160847462041/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "8a70ad24486e9aab1d4cfe547d4f697d"

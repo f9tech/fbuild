@@ -1,0 +1,127 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MustacheTemplateEngine"
+provides-nominal:
+- "C14KituraMustache22MustacheTemplateEngine"
+provides-member:
+- ["C14KituraMustache22MustacheTemplateEngine", ""]
+depends-top-level:
+- !private "Box"
+- "MustacheTemplateEngine"
+- "String"
+- !private "StringLiteralType"
+- !private "Template"
+- "TemplateEngine"
+depends-member:
+- !private ["Ps9AnyObject", "Box"]
+- !private ["Ps9AnyObject", "Template"]
+- ["Ps9AnyObject", "fileExtension"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "render"]
+- ["Ps9AnyObject", "setRootPaths"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "render"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P8Mustache15MustacheBoxable", "init"]
+- !private ["P8Mustache15MustacheBoxable", "render"]
+- !private ["C14KituraMustache22MustacheTemplateEngine", "Box"]
+- ["C14KituraMustache22MustacheTemplateEngine", "String"]
+- !private ["C14KituraMustache22MustacheTemplateEngine", "Template"]
+- ["C14KituraMustache22MustacheTemplateEngine", "deinit"]
+- ["C14KituraMustache22MustacheTemplateEngine", "fileExtension"]
+- ["C14KituraMustache22MustacheTemplateEngine", "init"]
+- ["C14KituraMustache22MustacheTemplateEngine", "render"]
+- ["C14KituraMustache22MustacheTemplateEngine", "setRootPaths"]
+- !private ["SS", "init"]
+- !private ["C8Mustache8Template", "init"]
+- !private ["C8Mustache8Template", "render"]
+- !private ["P20KituraTemplateEngine14TemplateEngine", "Box"]
+- !private ["P20KituraTemplateEngine14TemplateEngine", "Template"]
+- ["P20KituraTemplateEngine14TemplateEngine", "fileExtension"]
+- ["P20KituraTemplateEngine14TemplateEngine", "render"]
+- ["P20KituraTemplateEngine14TemplateEngine", "setRootPaths"]
+- ["P20KituraTemplateEngine14TemplateEngine", ""]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "P8Mustache15MustacheBoxable"
+- "C14KituraMustache22MustacheTemplateEngine"
+- !private "SS"
+- !private "C8Mustache8Template"
+- "P20KituraTemplateEngine14TemplateEngine"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Mustache.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KituraTemplateEngine.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "386db7b6204df1577bfef56e1020b1eb"

@@ -1,0 +1,505 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PolygonCoordinates"
+- "Polygon"
+- "=="
+- "=="
+provides-nominal:
+- "V7GeoJSON18PolygonCoordinates"
+- "V7GeoJSON7Polygon"
+provides-member:
+- ["V7GeoJSON18PolygonCoordinates", ""]
+- ["V7GeoJSON7Polygon", ""]
+depends-top-level:
+- !private "!="
+- !private "&+"
+- !private "..<"
+- !private "<<"
+- "=="
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "BSON"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Dictionary"
+- !private "Document"
+- !private "FloatLiteralType"
+- !private "GeoJSONError"
+- "GeoJsonObjectType"
+- "Geometry"
+- "Hashable"
+- "Int"
+- !private "IntegerLiteralType"
+- "Polygon"
+- "PolygonCoordinates"
+- "Position"
+- !private "StringLiteralType"
+- "ValueConvertible"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "last"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps23BidirectionalCollection", "last"]
+- !private ["Ps23BidirectionalCollection", "reduce"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "last"]
+- !private ["Ps10Collection", "reduce"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P10KittenCore11Convertible", "Document"]
+- !private ["P10KittenCore11Convertible", "GeoJSONError"]
+- !private ["P10KittenCore11Convertible", "PolygonCoordinates"]
+- !private ["P10KittenCore11Convertible", "_getBuiltinLogicValue"]
+- ["P10KittenCore11Convertible", "_toAnyHashable"]
+- !private ["P10KittenCore11Convertible", "append"]
+- ["P10KittenCore11Convertible", "convert"]
+- !private ["P10KittenCore11Convertible", "coordinates"]
+- !private ["P10KittenCore11Convertible", "count"]
+- !private ["P10KittenCore11Convertible", "exterior"]
+- !private ["P10KittenCore11Convertible", "first"]
+- ["P10KittenCore11Convertible", "hashValue"]
+- !private ["P10KittenCore11Convertible", "holes"]
+- !private ["P10KittenCore11Convertible", "init"]
+- !private ["P10KittenCore11Convertible", "last"]
+- ["P10KittenCore11Convertible", "makeBinary"]
+- ["P10KittenCore11Convertible", "makePrimitive"]
+- ["P10KittenCore11Convertible", "polygon"]
+- !private ["P10KittenCore11Convertible", "rawValue"]
+- !private ["P10KittenCore11Convertible", "reduce"]
+- !private ["P10KittenCore11Convertible", "subscript"]
+- ["P10KittenCore11Convertible", "type"]
+- ["P10KittenCore11Convertible", "typeIdentifier"]
+- ["P10KittenCore11Convertible", ""]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "last"]
+- !private ["Ps28CustomDebugStringConvertible", "reduce"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "last"]
+- !private ["Ps17CustomReflectable", "reduce"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "last"]
+- !private ["Ps23CustomStringConvertible", "reduce"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["V4BSON8Document", "append"]
+- !private ["V4BSON8Document", "init"]
+- !private ["Ps9Equatable", "Document"]
+- !private ["Ps9Equatable", "GeoJSONError"]
+- !private ["Ps9Equatable", "PolygonCoordinates"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "append"]
+- ["Ps9Equatable", "convert"]
+- !private ["Ps9Equatable", "coordinates"]
+- !private ["Ps9Equatable", "exterior"]
+- !private ["Ps9Equatable", "firstAndLastPositionMustBeTheSame"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "holes"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "makeBinary"]
+- ["Ps9Equatable", "makePrimitive"]
+- ["Ps9Equatable", "polygon"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "ringMustContainFourOrMoreElements"]
+- ["Ps9Equatable", "type"]
+- ["Ps9Equatable", "typeIdentifier"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "firstAndLastPositionMustBeTheSame"]
+- !private ["Ps5Error", "ringMustContainFourOrMoreElements"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "last"]
+- !private ["Ps25ExpressibleByArrayLiteral", "reduce"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "append"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["O7GeoJSON12GeoJSONError", "deinit"]
+- !private ["O7GeoJSON12GeoJSONError", "firstAndLastPositionMustBeTheSame"]
+- !private ["O7GeoJSON12GeoJSONError", "ringMustContainFourOrMoreElements"]
+- !private ["O7GeoJSON17GeoJsonObjectType", "deinit"]
+- ["O7GeoJSON17GeoJsonObjectType", "polygon"]
+- !private ["O7GeoJSON17GeoJsonObjectType", "rawValue"]
+- !private ["P7GeoJSON8Geometry", "PolygonCoordinates"]
+- ["P7GeoJSON8Geometry", "_toAnyHashable"]
+- ["P7GeoJSON8Geometry", "convert"]
+- !private ["P7GeoJSON8Geometry", "coordinates"]
+- ["P7GeoJSON8Geometry", "hashValue"]
+- ["P7GeoJSON8Geometry", "makeBinary"]
+- ["P7GeoJSON8Geometry", "makePrimitive"]
+- ["P7GeoJSON8Geometry", "type"]
+- ["P7GeoJSON8Geometry", "typeIdentifier"]
+- ["P7GeoJSON8Geometry", ""]
+- !private ["Ps8Hashable", "Document"]
+- !private ["Ps8Hashable", "GeoJSONError"]
+- !private ["Ps8Hashable", "PolygonCoordinates"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "convert"]
+- !private ["Ps8Hashable", "coordinates"]
+- !private ["Ps8Hashable", "exterior"]
+- !private ["Ps8Hashable", "firstAndLastPositionMustBeTheSame"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "holes"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "makeBinary"]
+- ["Ps8Hashable", "makePrimitive"]
+- ["Ps8Hashable", "polygon"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "ringMustContainFourOrMoreElements"]
+- ["Ps8Hashable", "type"]
+- ["Ps8Hashable", "typeIdentifier"]
+- ["Ps8Hashable", ""]
+- !private ["P10KittenCore19InitializableObject", "append"]
+- !private ["P10KittenCore19InitializableObject", "init"]
+- !private ["P10KittenCore21InitializableSequence", "append"]
+- !private ["P10KittenCore21InitializableSequence", "count"]
+- !private ["P10KittenCore21InitializableSequence", "first"]
+- !private ["P10KittenCore21InitializableSequence", "init"]
+- !private ["P10KittenCore21InitializableSequence", "last"]
+- !private ["P10KittenCore21InitializableSequence", "reduce"]
+- !private ["P10KittenCore21InitializableSequence", "subscript"]
+- !private ["P10KittenCore12KittenString", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps17MutableCollection", "last"]
+- !private ["Ps17MutableCollection", "reduce"]
+- !private ["Ps17MutableCollection", "subscript"]
+- ["V7GeoJSON7Polygon", "=="]
+- ["V7GeoJSON7Polygon", "BSON"]
+- ["V7GeoJSON7Polygon", "Bool"]
+- !private ["V7GeoJSON7Polygon", "Document"]
+- ["V7GeoJSON7Polygon", "GeoJsonObjectType"]
+- ["V7GeoJSON7Polygon", "Int"]
+- ["V7GeoJSON7Polygon", "Polygon"]
+- ["V7GeoJSON7Polygon", "PolygonCoordinates"]
+- ["V7GeoJSON7Polygon", "Position"]
+- ["V7GeoJSON7Polygon", "_toAnyHashable"]
+- ["V7GeoJSON7Polygon", "convert"]
+- ["V7GeoJSON7Polygon", "coordinates"]
+- ["V7GeoJSON7Polygon", "deinit"]
+- ["V7GeoJSON7Polygon", "hashValue"]
+- ["V7GeoJSON7Polygon", "init"]
+- ["V7GeoJSON7Polygon", "makeBinary"]
+- ["V7GeoJSON7Polygon", "makePrimitive"]
+- ["V7GeoJSON7Polygon", "type"]
+- ["V7GeoJSON7Polygon", "typeIdentifier"]
+- ["V7GeoJSON18PolygonCoordinates", "=="]
+- ["V7GeoJSON18PolygonCoordinates", "BSON"]
+- ["V7GeoJSON18PolygonCoordinates", "Bool"]
+- !private ["V7GeoJSON18PolygonCoordinates", "Document"]
+- !private ["V7GeoJSON18PolygonCoordinates", "GeoJSONError"]
+- ["V7GeoJSON18PolygonCoordinates", "Int"]
+- ["V7GeoJSON18PolygonCoordinates", "PolygonCoordinates"]
+- ["V7GeoJSON18PolygonCoordinates", "Position"]
+- ["V7GeoJSON18PolygonCoordinates", "_toAnyHashable"]
+- ["V7GeoJSON18PolygonCoordinates", "convert"]
+- ["V7GeoJSON18PolygonCoordinates", "deinit"]
+- ["V7GeoJSON18PolygonCoordinates", "exterior"]
+- ["V7GeoJSON18PolygonCoordinates", "hashValue"]
+- ["V7GeoJSON18PolygonCoordinates", "holes"]
+- ["V7GeoJSON18PolygonCoordinates", "init"]
+- ["V7GeoJSON18PolygonCoordinates", "makeBinary"]
+- ["V7GeoJSON18PolygonCoordinates", "makePrimitive"]
+- ["V7GeoJSON18PolygonCoordinates", "typeIdentifier"]
+- !private ["V7GeoJSON8Position", "deinit"]
+- !private ["V7GeoJSON8Position", "hashValue"]
+- !private ["P4BSON9Primitive", "Document"]
+- !private ["P4BSON9Primitive", "GeoJSONError"]
+- !private ["P4BSON9Primitive", "PolygonCoordinates"]
+- !private ["P4BSON9Primitive", "_getBuiltinLogicValue"]
+- ["P4BSON9Primitive", "_toAnyHashable"]
+- !private ["P4BSON9Primitive", "append"]
+- ["P4BSON9Primitive", "convert"]
+- !private ["P4BSON9Primitive", "coordinates"]
+- !private ["P4BSON9Primitive", "count"]
+- !private ["P4BSON9Primitive", "exterior"]
+- !private ["P4BSON9Primitive", "first"]
+- ["P4BSON9Primitive", "hashValue"]
+- !private ["P4BSON9Primitive", "holes"]
+- !private ["P4BSON9Primitive", "init"]
+- !private ["P4BSON9Primitive", "last"]
+- ["P4BSON9Primitive", "makeBinary"]
+- ["P4BSON9Primitive", "makePrimitive"]
+- ["P4BSON9Primitive", "polygon"]
+- !private ["P4BSON9Primitive", "rawValue"]
+- !private ["P4BSON9Primitive", "reduce"]
+- !private ["P4BSON9Primitive", "subscript"]
+- ["P4BSON9Primitive", "type"]
+- ["P4BSON9Primitive", "typeIdentifier"]
+- ["P4BSON9Primitive", ""]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps22RandomAccessCollection", "last"]
+- !private ["Ps22RandomAccessCollection", "reduce"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps26RangeReplaceableCollection", "last"]
+- !private ["Ps26RangeReplaceableCollection", "reduce"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- ["Ps16RawRepresentable", "polygon"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "last"]
+- !private ["Ps8Sequence", "reduce"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["P10KittenCore20SerializableSequence", "append"]
+- !private ["P10KittenCore20SerializableSequence", "count"]
+- !private ["P10KittenCore20SerializableSequence", "first"]
+- !private ["P10KittenCore20SerializableSequence", "init"]
+- !private ["P10KittenCore20SerializableSequence", "last"]
+- !private ["P10KittenCore20SerializableSequence", "reduce"]
+- !private ["P10KittenCore20SerializableSequence", "subscript"]
+- !private ["P10KittenCore17SimpleConvertible", "_getBuiltinLogicValue"]
+- !private ["P10KittenCore17SimpleConvertible", "init"]
+- !private ["P4BSON15SimplePrimitive", "_getBuiltinLogicValue"]
+- !private ["P4BSON15SimplePrimitive", "init"]
+- !private ["SS", "init"]
+- !private ["P4BSON23SubscriptExpressionType", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P7GeoJSON16ValueConvertible", "Document"]
+- !private ["P7GeoJSON16ValueConvertible", "GeoJSONError"]
+- !private ["P7GeoJSON16ValueConvertible", "PolygonCoordinates"]
+- ["P7GeoJSON16ValueConvertible", "_toAnyHashable"]
+- ["P7GeoJSON16ValueConvertible", "convert"]
+- !private ["P7GeoJSON16ValueConvertible", "coordinates"]
+- !private ["P7GeoJSON16ValueConvertible", "exterior"]
+- ["P7GeoJSON16ValueConvertible", "hashValue"]
+- !private ["P7GeoJSON16ValueConvertible", "holes"]
+- !private ["P7GeoJSON16ValueConvertible", "init"]
+- ["P7GeoJSON16ValueConvertible", "makeBinary"]
+- ["P7GeoJSON16ValueConvertible", "makePrimitive"]
+- ["P7GeoJSON16ValueConvertible", "polygon"]
+- !private ["P7GeoJSON16ValueConvertible", "rawValue"]
+- ["P7GeoJSON16ValueConvertible", "type"]
+- ["P7GeoJSON16ValueConvertible", "typeIdentifier"]
+- ["P7GeoJSON16ValueConvertible", ""]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps14_ArrayProtocol", "last"]
+- !private ["Ps14_ArrayProtocol", "reduce"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "first"]
+- !private ["Ps23_BidirectionalIndexable", "last"]
+- !private ["Ps23_BidirectionalIndexable", "reduce"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "count"]
+- !private ["P10Foundation13_CFBridgeable", "first"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "last"]
+- !private ["P10Foundation13_CFBridgeable", "reduce"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "last"]
+- !private ["Ps24_DestructorSafeContainer", "reduce"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "Document"]
+- !private ["Ps9_Hashable", "GeoJSONError"]
+- !private ["Ps9_Hashable", "PolygonCoordinates"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "convert"]
+- !private ["Ps9_Hashable", "coordinates"]
+- !private ["Ps9_Hashable", "exterior"]
+- !private ["Ps9_Hashable", "firstAndLastPositionMustBeTheSame"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "holes"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "makeBinary"]
+- ["Ps9_Hashable", "makePrimitive"]
+- ["Ps9_Hashable", "polygon"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "ringMustContainFourOrMoreElements"]
+- ["Ps9_Hashable", "type"]
+- ["Ps9_Hashable", "typeIdentifier"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "first"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "last"]
+- !private ["Ps10_Indexable", "reduce"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "first"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "last"]
+- !private ["Ps14_IndexableBase", "reduce"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "first"]
+- !private ["Ps17_MutableIndexable", "last"]
+- !private ["Ps17_MutableIndexable", "reduce"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "count"]
+- !private ["P10Foundation13_NSBridgeable", "first"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "last"]
+- !private ["P10Foundation13_NSBridgeable", "reduce"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "count"]
+- !private ["P10Foundation17_ObjectBridgeable", "first"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "last"]
+- !private ["P10Foundation17_ObjectBridgeable", "reduce"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "count"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "first"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "last"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "reduce"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "first"]
+- !private ["Ps22_RandomAccessIndexable", "last"]
+- !private ["Ps22_RandomAccessIndexable", "reduce"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "first"]
+- !private ["Ps26_RangeReplaceableIndexable", "last"]
+- !private ["Ps26_RangeReplaceableIndexable", "reduce"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "P10KittenCore11Convertible"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V4BSON8Document"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "O7GeoJSON12GeoJSONError"
+- "O7GeoJSON17GeoJsonObjectType"
+- "P7GeoJSON8Geometry"
+- "Ps8Hashable"
+- !private "P10KittenCore19InitializableObject"
+- !private "P10KittenCore21InitializableSequence"
+- !private "P10KittenCore12KittenString"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "V7GeoJSON7Polygon"
+- "V7GeoJSON18PolygonCoordinates"
+- !private "V7GeoJSON8Position"
+- "P4BSON9Primitive"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "P10KittenCore20SerializableSequence"
+- !private "P10KittenCore17SimpleConvertible"
+- !private "P4BSON15SimplePrimitive"
+- !private "SS"
+- !private "P4BSON23SubscriptExpressionType"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "P7GeoJSON16ValueConvertible"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/BSON.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KittenCore.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/KittenCTLS.git--3049334175900397724/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "3bf38829e4b1fea1e105e2b437409193"

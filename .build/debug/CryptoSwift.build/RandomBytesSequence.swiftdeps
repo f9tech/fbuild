@@ -1,0 +1,186 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RandomBytesSequence"
+provides-nominal:
+- "V11CryptoSwift19RandomBytesSequence"
+provides-member:
+- ["V11CryptoSwift19RandomBytesSequence", ""]
+depends-top-level:
+- !private "+"
+- !private "<="
+- !private "=="
+- !private ">="
+- "AnyIterator"
+- !private "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "MemoryLayout"
+- !private "O_RDONLY"
+- "RandomBytesSequence"
+- "Sequence"
+- "StringLiteralType"
+- "UInt8"
+- !private "close"
+- !private "open"
+- !private "precondition"
+- !private "read"
+depends-member:
+- !private ["Vs11AnyIterator", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps16IteratorProtocol", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Os12MemoryLayout", "size"]
+- !private ["Ps10MirrorPath", "init"]
+- ["V11CryptoSwift19RandomBytesSequence", "AnyIterator"]
+- ["V11CryptoSwift19RandomBytesSequence", "Int"]
+- ["V11CryptoSwift19RandomBytesSequence", "Iterator"]
+- !private ["V11CryptoSwift19RandomBytesSequence", "MemoryLayout"]
+- !private ["V11CryptoSwift19RandomBytesSequence", "O_RDONLY"]
+- ["V11CryptoSwift19RandomBytesSequence", "SubSequence"]
+- ["V11CryptoSwift19RandomBytesSequence", "UInt8"]
+- ["V11CryptoSwift19RandomBytesSequence", "_copyContents"]
+- ["V11CryptoSwift19RandomBytesSequence", "_copyToContiguousArray"]
+- ["V11CryptoSwift19RandomBytesSequence", "_customContainsEquatableElement"]
+- ["V11CryptoSwift19RandomBytesSequence", "_preprocessingPass"]
+- !private ["V11CryptoSwift19RandomBytesSequence", "close"]
+- ["V11CryptoSwift19RandomBytesSequence", "deinit"]
+- ["V11CryptoSwift19RandomBytesSequence", "drop"]
+- ["V11CryptoSwift19RandomBytesSequence", "dropFirst"]
+- ["V11CryptoSwift19RandomBytesSequence", "dropLast"]
+- ["V11CryptoSwift19RandomBytesSequence", "filter"]
+- ["V11CryptoSwift19RandomBytesSequence", "forEach"]
+- ["V11CryptoSwift19RandomBytesSequence", "init"]
+- ["V11CryptoSwift19RandomBytesSequence", "makeIterator"]
+- ["V11CryptoSwift19RandomBytesSequence", "map"]
+- !private ["V11CryptoSwift19RandomBytesSequence", "open"]
+- !private ["V11CryptoSwift19RandomBytesSequence", "precondition"]
+- ["V11CryptoSwift19RandomBytesSequence", "prefix"]
+- !private ["V11CryptoSwift19RandomBytesSequence", "read"]
+- ["V11CryptoSwift19RandomBytesSequence", "size"]
+- ["V11CryptoSwift19RandomBytesSequence", "split"]
+- ["V11CryptoSwift19RandomBytesSequence", "suffix"]
+- ["V11CryptoSwift19RandomBytesSequence", "underestimatedCount"]
+- !private ["Ps8Sequence", "AnyIterator"]
+- !private ["Ps8Sequence", "MemoryLayout"]
+- !private ["Ps8Sequence", "O_RDONLY"]
+- ["Ps8Sequence", "_copyContents"]
+- ["Ps8Sequence", "_copyToContiguousArray"]
+- ["Ps8Sequence", "_customContainsEquatableElement"]
+- ["Ps8Sequence", "_preprocessingPass"]
+- !private ["Ps8Sequence", "close"]
+- ["Ps8Sequence", "drop"]
+- ["Ps8Sequence", "dropFirst"]
+- ["Ps8Sequence", "dropLast"]
+- ["Ps8Sequence", "filter"]
+- ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "init"]
+- ["Ps8Sequence", "makeIterator"]
+- ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "open"]
+- !private ["Ps8Sequence", "precondition"]
+- ["Ps8Sequence", "prefix"]
+- !private ["Ps8Sequence", "read"]
+- !private ["Ps8Sequence", "size"]
+- ["Ps8Sequence", "split"]
+- ["Ps8Sequence", "suffix"]
+- ["Ps8Sequence", "underestimatedCount"]
+- ["Ps8Sequence", ""]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- !private "Vs11AnyIterator"
+- !private "Sb"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Os12MemoryLayout"
+- !private "Ps10MirrorPath"
+- "V11CryptoSwift19RandomBytesSequence"
+- "Ps8Sequence"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "ae01d75e9fddf13b521d15aa47ff12d3"

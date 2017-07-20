@@ -1,0 +1,441 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockContext"
+- "ExtendsNode"
+- "BlockNode"
+provides-nominal:
+- "C7Stencil12BlockContext"
+- "C7Stencil11ExtendsNode"
+- "C7Stencil9BlockNode"
+provides-member:
+- ["C7Stencil12BlockContext", ""]
+- ["Ps10Collection", ""]
+- ["C7Stencil11ExtendsNode", ""]
+- ["C7Stencil9BlockNode", ""]
+- ["Ps10Collection", "any"]
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "BlockContext"
+- "BlockNode"
+- "Bool"
+- "CastingPrecedence"
+- "Collection"
+- "Context"
+- !private "Dictionary"
+- "ExtendsNode"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NodeType"
+- "String"
+- !private "StringLiteralType"
+- !private "TemplateSyntaxError"
+- "Token"
+- "TokenParser"
+- !private "UnicodeScalarType"
+- "Variable"
+- !private "renderNodes"
+- !private "until"
+depends-member:
+- !private ["Ps9AnyObject", "BlockContext"]
+- !private ["Ps9AnyObject", "BlockNode"]
+- !private ["Ps9AnyObject", "ExtendsNode"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "TemplateSyntaxError"]
+- !private ["Ps9AnyObject", "Variable"]
+- !private ["Ps9AnyObject", "blocks"]
+- !private ["Ps9AnyObject", "contextKey"]
+- !private ["Ps9AnyObject", "environment"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "nextToken"]
+- !private ["Ps9AnyObject", "nodes"]
+- !private ["Ps9AnyObject", "parse"]
+- !private ["Ps9AnyObject", "pop"]
+- !private ["Ps9AnyObject", "push"]
+- ["Ps9AnyObject", "render"]
+- !private ["Ps9AnyObject", "renderNodes"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "templateName"]
+- !private ["Ps9AnyObject", "until"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "any"]
+- !private ["Sa", "count"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "any"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "flatMap"]
+- !private ["Ps23BidirectionalCollection", "reduce"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- ["C7Stencil12BlockContext", "BlockNode"]
+- ["C7Stencil12BlockContext", "String"]
+- ["C7Stencil12BlockContext", "blocks"]
+- ["C7Stencil12BlockContext", "contextKey"]
+- ["C7Stencil12BlockContext", "deinit"]
+- ["C7Stencil12BlockContext", "init"]
+- ["C7Stencil12BlockContext", "pop"]
+- !private ["C7Stencil9BlockNode", "BlockContext"]
+- !private ["C7Stencil9BlockNode", "BlockNode"]
+- ["C7Stencil9BlockNode", "Context"]
+- ["C7Stencil9BlockNode", "NodeType"]
+- ["C7Stencil9BlockNode", "String"]
+- !private ["C7Stencil9BlockNode", "TemplateSyntaxError"]
+- ["C7Stencil9BlockNode", "Token"]
+- ["C7Stencil9BlockNode", "TokenParser"]
+- ["C7Stencil9BlockNode", "deinit"]
+- ["C7Stencil9BlockNode", "init"]
+- ["C7Stencil9BlockNode", "name"]
+- ["C7Stencil9BlockNode", "nodes"]
+- ["C7Stencil9BlockNode", "parse"]
+- ["C7Stencil9BlockNode", "render"]
+- !private ["C7Stencil9BlockNode", "renderNodes"]
+- !private ["C7Stencil9BlockNode", "until"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Ps10Collection", "Bool"]
+- ["Ps10Collection", "Iterator"]
+- ["Ps10Collection", "any"]
+- !private ["Ps10Collection", "contains"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "flatMap"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "keys"]
+- !private ["Ps10Collection", "reduce"]
+- !private ["Ps10Collection", "removeValue"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C7Stencil7Context", "environment"]
+- !private ["C7Stencil7Context", "push"]
+- !private ["C7Stencil7Context", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "any"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "flatMap"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keys"]
+- !private ["Ps28CustomDebugStringConvertible", "reduce"]
+- !private ["Ps28CustomDebugStringConvertible", "removeValue"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "any"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "flatMap"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "keys"]
+- !private ["Ps17CustomReflectable", "reduce"]
+- !private ["Ps17CustomReflectable", "removeValue"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "any"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "flatMap"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keys"]
+- !private ["Ps23CustomStringConvertible", "reduce"]
+- !private ["Ps23CustomStringConvertible", "removeValue"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "keys"]
+- !private ["Vs10Dictionary", "removeValue"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["V7Stencil11Environment", "loadTemplate"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "components"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "resolve"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "any"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "flatMap"]
+- !private ["Ps25ExpressibleByArrayLiteral", "reduce"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "keys"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "removeValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "render"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "render"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "render"]
+- !private ["C7Stencil11ExtendsNode", "BlockContext"]
+- ["C7Stencil11ExtendsNode", "BlockNode"]
+- ["C7Stencil11ExtendsNode", "Context"]
+- !private ["C7Stencil11ExtendsNode", "ExtendsNode"]
+- ["C7Stencil11ExtendsNode", "NodeType"]
+- ["C7Stencil11ExtendsNode", "String"]
+- !private ["C7Stencil11ExtendsNode", "TemplateSyntaxError"]
+- ["C7Stencil11ExtendsNode", "Token"]
+- ["C7Stencil11ExtendsNode", "TokenParser"]
+- ["C7Stencil11ExtendsNode", "Variable"]
+- ["C7Stencil11ExtendsNode", "blocks"]
+- ["C7Stencil11ExtendsNode", "deinit"]
+- ["C7Stencil11ExtendsNode", "init"]
+- ["C7Stencil11ExtendsNode", "parse"]
+- ["C7Stencil11ExtendsNode", "render"]
+- ["C7Stencil11ExtendsNode", "templateName"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps22LazyCollectionProtocol", "contains"]
+- !private ["Vs17LazyMapCollection", "contains"]
+- !private ["Ps20LazySequenceProtocol", "contains"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "any"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "flatMap"]
+- !private ["Ps17MutableCollection", "reduce"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["P7Stencil8NodeType", "BlockContext"]
+- !private ["P7Stencil8NodeType", "BlockNode"]
+- !private ["P7Stencil8NodeType", "ExtendsNode"]
+- !private ["P7Stencil8NodeType", "String"]
+- !private ["P7Stencil8NodeType", "TemplateSyntaxError"]
+- !private ["P7Stencil8NodeType", "Variable"]
+- !private ["P7Stencil8NodeType", "blocks"]
+- !private ["P7Stencil8NodeType", "init"]
+- !private ["P7Stencil8NodeType", "name"]
+- !private ["P7Stencil8NodeType", "nodes"]
+- ["P7Stencil8NodeType", "render"]
+- !private ["P7Stencil8NodeType", "renderNodes"]
+- !private ["P7Stencil8NodeType", "templateName"]
+- !private ["P7Stencil8NodeType", "until"]
+- ["P7Stencil8NodeType", ""]
+- !private ["P7Stencil12Normalizable", "any"]
+- !private ["P7Stencil12Normalizable", "count"]
+- !private ["P7Stencil12Normalizable", "flatMap"]
+- !private ["P7Stencil12Normalizable", "init"]
+- !private ["P7Stencil12Normalizable", "keys"]
+- !private ["P7Stencil12Normalizable", "reduce"]
+- !private ["P7Stencil12Normalizable", "removeValue"]
+- !private ["P7Stencil12Normalizable", "subscript"]
+- !private ["Ps22RandomAccessCollection", "any"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "flatMap"]
+- !private ["Ps22RandomAccessCollection", "reduce"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "any"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "flatMap"]
+- !private ["Ps26RangeReplaceableCollection", "reduce"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P7Stencil10Resolvable", "init"]
+- !private ["P7Stencil10Resolvable", "resolve"]
+- ["Ps8Sequence", "Bool"]
+- ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "any"]
+- !private ["Ps8Sequence", "contains"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "flatMap"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "keys"]
+- !private ["Ps8Sequence", "reduce"]
+- !private ["Ps8Sequence", "removeValue"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "init"]
+- !private ["C7Stencil8Template", "render"]
+- !private ["V7Stencil19TemplateSyntaxError", "deinit"]
+- !private ["V7Stencil19TemplateSyntaxError", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["O7Stencil5Token", "components"]
+- !private ["C7Stencil11TokenParser", "nextToken"]
+- !private ["C7Stencil11TokenParser", "parse"]
+- !private ["V7Stencil8Variable", "deinit"]
+- !private ["V7Stencil8Variable", "init"]
+- !private ["V7Stencil8Variable", "resolve"]
+- !private ["Ps14_ArrayProtocol", "any"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "flatMap"]
+- !private ["Ps14_ArrayProtocol", "reduce"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "any"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "flatMap"]
+- !private ["Ps23_BidirectionalIndexable", "reduce"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "any"]
+- !private ["P10Foundation13_CFBridgeable", "count"]
+- !private ["P10Foundation13_CFBridgeable", "flatMap"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "keys"]
+- !private ["P10Foundation13_CFBridgeable", "reduce"]
+- !private ["P10Foundation13_CFBridgeable", "removeValue"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "any"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "flatMap"]
+- !private ["Ps24_DestructorSafeContainer", "reduce"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps10_Indexable", "Bool"]
+- ["Ps10_Indexable", "Iterator"]
+- !private ["Ps10_Indexable", "any"]
+- !private ["Ps10_Indexable", "contains"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "flatMap"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "keys"]
+- !private ["Ps10_Indexable", "reduce"]
+- !private ["Ps10_Indexable", "removeValue"]
+- !private ["Ps10_Indexable", "subscript"]
+- ["Ps14_IndexableBase", "Bool"]
+- ["Ps14_IndexableBase", "Iterator"]
+- !private ["Ps14_IndexableBase", "any"]
+- !private ["Ps14_IndexableBase", "contains"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "flatMap"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "keys"]
+- !private ["Ps14_IndexableBase", "reduce"]
+- !private ["Ps14_IndexableBase", "removeValue"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "any"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "flatMap"]
+- !private ["Ps17_MutableIndexable", "reduce"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "any"]
+- !private ["P10Foundation13_NSBridgeable", "count"]
+- !private ["P10Foundation13_NSBridgeable", "flatMap"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "keys"]
+- !private ["P10Foundation13_NSBridgeable", "reduce"]
+- !private ["P10Foundation13_NSBridgeable", "removeValue"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "any"]
+- !private ["P10Foundation17_ObjectBridgeable", "count"]
+- !private ["P10Foundation17_ObjectBridgeable", "flatMap"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "keys"]
+- !private ["P10Foundation17_ObjectBridgeable", "reduce"]
+- !private ["P10Foundation17_ObjectBridgeable", "removeValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "any"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "count"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "flatMap"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "keys"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "reduce"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "removeValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "any"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "flatMap"]
+- !private ["Ps22_RandomAccessIndexable", "reduce"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "any"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "flatMap"]
+- !private ["Ps26_RangeReplaceableIndexable", "reduce"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- "C7Stencil12BlockContext"
+- "C7Stencil9BlockNode"
+- !private "Sb"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "C7Stencil7Context"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "V7Stencil11Environment"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C7Stencil11ExtendsNode"
+- !private "Ps8Hashable"
+- !private "Ps22LazyCollectionProtocol"
+- !private "Vs17LazyMapCollection"
+- !private "Ps20LazySequenceProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "P7Stencil8NodeType"
+- !private "P7Stencil12Normalizable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "P7Stencil10Resolvable"
+- "Ps8Sequence"
+- !private "SS"
+- !private "C7Stencil8Template"
+- !private "V7Stencil19TemplateSyntaxError"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "O7Stencil5Token"
+- !private "C7Stencil11TokenParser"
+- !private "V7Stencil8Variable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/PathKit.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "671eca8f850f172cf64ed3cf72f4b5e1"

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/KituraMarkdown.build/master.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-Markdown--819235862635121594/Sources/KituraMarkdown/KituraMarkdown.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/KituraMarkdown.build/KituraMarkdown.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/KituraMarkdown.build/KituraMarkdown.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/KituraMarkdown.build/KituraMarkdown~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/KituraMarkdown.build/KituraMarkdown.swiftdeps"
+  }
+}

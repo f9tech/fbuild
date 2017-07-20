@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/master.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/ExtendedJSON/ExtendedJSON+EfficientSerialization.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ExtendedJSON+EfficientSerialization.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ExtendedJSON+EfficientSerialization.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ExtendedJSON+EfficientSerialization~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ExtendedJSON+EfficientSerialization.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/ExtendedJSON/ISO8601.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ISO8601.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ISO8601.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ISO8601~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ISO8601.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/ExtendedJSON/ExtendedJSON.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ExtendedJSON.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ExtendedJSON.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ExtendedJSON~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.build/ExtendedJSON.swiftdeps"
+  }
+}

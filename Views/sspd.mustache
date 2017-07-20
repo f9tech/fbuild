@@ -1,0 +1,178 @@
+ 
+  <!DOCTYPE html>
+<html lang="en">
+   
+    <body>
+        <!-- START PAGE CONTAINER -->
+        <div class="page-container">
+            
+            <!-- START PAGE SIDEBAR -->
+            
+            <!-- END PAGE SIDEBAR -->
+            
+            <!-- PAGE CONTENT -->
+            <div class="page-content">
+                
+                <!-- START X-NAVIGATION VERTICAL -->
+                <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
+                    <!-- TOGGLE NAVIGATION -->
+                    <li class="xn-icon-button">
+                        <a href="#" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
+                    </li>
+                    <!-- END TOGGLE NAVIGATION -->
+                    <!-- SEARCH -->
+                    <li class="xn-search">
+                        <form role="form">
+                            <input type="text" name="search" placeholder="Search..."/>
+                        </form>
+                    </li>   
+                    <!-- END SEARCH -->
+                    
+                      <!-- SIGN OUT -->
+                    <li >
+                        <a href="#" class="mb-control" data-box="#mb-signout"><span style="margin-left:820px" class="fa fa-sign-out">LogOut</span></a></li> 
+                    <!-- MESSAGE BOX-->
+                        <div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
+                            <div class="mb-container">
+                                <div class="mb-middle">
+                                    <div class="mb-title"><span class="fa fa-sign-out"></span> <strong>Log Out</strong> ?</div>
+                                    <div class="mb-content">
+                                        <p>Are you sure you want to log out?</p>                    
+                                        <p>Press No if you want to continue work. Press Yes to logout current user.</p>
+                                    </div>
+                                    <div class="mb-footer">
+                                        <div class="pull-right">
+                                            <a href="/" class="btn btn-success btn-lg">Yes</a>
+                                            <button class="btn btn-default btn-lg mb-control-close">No</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END MESSAGE BOX-->
+                    <!-- END SIGN OUT -->
+
+
+
+                   
+                    
+                </ul>
+                <!-- END X-NAVIGATION VERTICAL -->                     
+
+                <!-- START BREADCRUMB -->
+                <ul class="breadcrumb">
+                <li><a href="/">Home</a></li>                    
+                    <li><a href="http://localhost:8080/dashboard">Dashboard</a></li>
+                    <li><a href="http://localhost:8080/currentProjects">Current Project</a></li>
+                    <li><a href="http://localhost:8080/Invite-myteam">Invite Members</a></li>
+                    <li><a href="http://localhost:8080/typesOfMembers">Types of Members</a></li>
+                    <li><a href="http://localhost:8080/selectProviderType">Types of services</a></li>
+                    <li><a href="http://localhost:8080/serviceprovider">Service Provider</a></li>
+                    <li class="active">Profile</li>                 
+
+                </ul>
+                <!-- END BREADCRUMB -->                       
+                
+                <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">
+                    
+                    <!-- START WIDGETS -->                    
+                    <div class="row">
+         <h1 class="col-sm-offset-1"><b>Profile</b></h1>
+        <form class="form-horizontal">
+         
+
+           
+            {{#sspd}}
+            <div class="col-md-8">
+             
+                        <label for="inputFullName" class="col-md-offset-1"><h3>Name&nbsp;&nbsp;&nbsp;:<span class="col-sm-offset-1" >{{ name }}</span></h3> </label> 
+                        <br/>
+                  
+                        <label for="inputEmail3" class="col-md-offset-1"><h3>Email&nbsp;&nbsp;&nbsp;:<span class="col-sm-offset-0"> {{email}}</span></h3> </label> 
+                        <br/>  
+                  
+                    <label for="inputphonenumber" class="col-md-offset-1 "><h3>Phone&nbsp;&nbsp;&nbsp;:<span class="col-sm-offset-1">{{phonenumber }}</span></h3> </label>  
+                    <br/>  
+                    
+                    <label for="gender" class="col-md-offset-1"><h3>Type Of Service&nbsp;&nbsp;&nbsp;:<span class="col-sm-offset-1">{{TypeOfService}}</span></h3></label>   
+                    <br/>
+                    {{/sspd}}
+                    <label for="gender" class="col-md-offset-1"><h3>Review&nbsp;&nbsp;&nbsp;:<span class="col-sm-offset-1">{{#sspd2}}{{review}}<br>{{/sspd2}}</span></h3></label>   
+                    <br/><br/>
+             {{#sspd}}
+                    <div class="col-sm-offset-3 col-sm-10">
+                      <button type="button" class="btn btn-default"><a href="http://localhost:8080/invite?id={{idd}}">Invite</a></button>
+                    </div> 
+                    {{/sspd}}
+            </div>
+         
+            <div class="col-md-4">
+                  <div class="form-group">
+                   {{#sspd}}
+                      <div class="col-sm-10 col-sm-offset-4">
+                         <div class="profile-image">
+                          <img src="Serviceprovider/{{img}}" class="img-thumbnail" alt="{{name}}"/>
+                         </div>
+                      </div> 
+                      {{/sspd}}                     
+                    </div>
+               
+                    <br>
+
+
+
+                
+                <button class="glyphicon glyphicon-thumbs-up col-md-offset-4" style="height: 40px;width: 40px">14</button>
+                <button class="glyphicon glyphicon-thumbs-down col-sm-offset-1" style="height: 40px;width: 40px">2</button>
+            </div>
+
+        </div>
+
+        </form>
+      
+                    <!-- START DASHBOARD CHART -->
+                    <div class="chart-holder" id="dashboard-area-1" style="height: 200px;"></div>
+                    <div class="block-full-width">
+                                                                       
+                    </div>                    
+                    <!-- END DASHBOARD CHART -->
+                    
+                </div>
+                <!-- END PAGE CONTENT WRAPPER -->                                
+            </div>            
+            <!-- END PAGE CONTENT -->
+        </div>
+        <!-- END PAGE CONTAINER -->
+
+        <!-- MESSAGE BOX-->
+        <div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
+            <div class="mb-container">
+                <div class="mb-middle">
+                    <div class="mb-title"><span class="fa fa-sign-out"></span> Log <strong>Out</strong> ?</div>
+                    <div class="mb-content">
+                        <p>Are you sure you want to log out?</p>                    
+                        <p>Press No if youwant to continue work. Press Yes to logout current user.</p>
+                    </div>
+                    <div class="mb-footer">
+                        <div class="pull-right">
+                            <a href="pages-login.html" class="btn btn-success btn-lg">Yes</a>
+                            <button class="btn btn-default btn-lg mb-control-close">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MESSAGE BOX-->
+
+        <!-- START PRELOADS -->
+       
+    <!-- END SCRIPTS -->         
+    </body>
+</html>
+
+
+
+
+
+

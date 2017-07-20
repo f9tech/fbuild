@@ -1,0 +1,508 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Version"
+- "BuildInfo"
+- "=="
+- ">"
+- "<"
+- ">="
+- "<="
+provides-nominal:
+- "V11MongoKitten7Version"
+- "V11MongoKitten9BuildInfo"
+provides-member:
+- ["V11MongoKitten7Version", ""]
+- ["V11MongoKitten9BuildInfo", ""]
+depends-top-level:
+- !private "&&"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BSON"
+- "Bool"
+- !private "BooleanLiteralType"
+- "BuildInfo"
+- "CastingPrecedence"
+- "Comparable"
+- !private "Dictionary"
+- "Document"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "MongoError"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "ValueConvertible"
+- "Version"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "subscript"]
+- !private ["P11MongoKitten17BSONBytesProtocol", "init"]
+- !private ["P4BSON17BSONBytesProtocol", "init"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "flatMap"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["P11CryptoSwift22BitshiftOperationsType", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "init"]
+- ["V11MongoKitten9BuildInfo", "BSON"]
+- ["V11MongoKitten9BuildInfo", "Bool"]
+- ["V11MongoKitten9BuildInfo", "Document"]
+- ["V11MongoKitten9BuildInfo", "Int"]
+- !private ["V11MongoKitten9BuildInfo", "MongoError"]
+- ["V11MongoKitten9BuildInfo", "String"]
+- ["V11MongoKitten9BuildInfo", "Version"]
+- ["V11MongoKitten9BuildInfo", "bits"]
+- ["V11MongoKitten9BuildInfo", "convert"]
+- ["V11MongoKitten9BuildInfo", "debug"]
+- ["V11MongoKitten9BuildInfo", "deinit"]
+- ["V11MongoKitten9BuildInfo", "gitVersion"]
+- ["V11MongoKitten9BuildInfo", "init"]
+- ["V11MongoKitten9BuildInfo", "makeBinary"]
+- ["V11MongoKitten9BuildInfo", "makePrimitive"]
+- ["V11MongoKitten9BuildInfo", "maxBsonObjectSize"]
+- ["V11MongoKitten9BuildInfo", "modules"]
+- ["V11MongoKitten9BuildInfo", "openSSL"]
+- ["V11MongoKitten9BuildInfo", "storageEngines"]
+- ["V11MongoKitten9BuildInfo", "typeIdentifier"]
+- ["V11MongoKitten9BuildInfo", "version"]
+- ["V11MongoKitten9BuildInfo", "versionArray"]
+- !private ["P11CryptoSwift15ByteConvertible", "init"]
+- !private ["P11CryptoSwift11CSArrayType", "count"]
+- !private ["P11CryptoSwift11CSArrayType", "flatMap"]
+- !private ["P11CryptoSwift11CSArrayType", "subscript"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "flatMap"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "Int"]
+- !private ["Ps10Comparable", "String"]
+- !private ["Ps10Comparable", "components"]
+- ["Ps10Comparable", "convert"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "major"]
+- ["Ps10Comparable", "makeBinary"]
+- ["Ps10Comparable", "makePrimitive"]
+- !private ["Ps10Comparable", "minor"]
+- !private ["Ps10Comparable", "patch"]
+- ["Ps10Comparable", "typeIdentifier"]
+- ["Ps10Comparable", ""]
+- !private ["P10KittenCore11Convertible", "Bool"]
+- !private ["P10KittenCore11Convertible", "Document"]
+- !private ["P10KittenCore11Convertible", "Int"]
+- !private ["P10KittenCore11Convertible", "MongoError"]
+- !private ["P10KittenCore11Convertible", "String"]
+- !private ["P10KittenCore11Convertible", "Version"]
+- !private ["P10KittenCore11Convertible", "_getBuiltinLogicValue"]
+- !private ["P10KittenCore11Convertible", "bits"]
+- !private ["P10KittenCore11Convertible", "components"]
+- ["P10KittenCore11Convertible", "convert"]
+- !private ["P10KittenCore11Convertible", "count"]
+- !private ["P10KittenCore11Convertible", "debug"]
+- !private ["P10KittenCore11Convertible", "flatMap"]
+- !private ["P10KittenCore11Convertible", "gitVersion"]
+- !private ["P10KittenCore11Convertible", "init"]
+- !private ["P10KittenCore11Convertible", "major"]
+- ["P10KittenCore11Convertible", "makeBinary"]
+- ["P10KittenCore11Convertible", "makePrimitive"]
+- !private ["P10KittenCore11Convertible", "maxBsonObjectSize"]
+- !private ["P10KittenCore11Convertible", "minor"]
+- !private ["P10KittenCore11Convertible", "modules"]
+- !private ["P10KittenCore11Convertible", "openSSL"]
+- !private ["P10KittenCore11Convertible", "patch"]
+- !private ["P10KittenCore11Convertible", "storageEngines"]
+- !private ["P10KittenCore11Convertible", "subscript"]
+- ["P10KittenCore11Convertible", "typeIdentifier"]
+- !private ["P10KittenCore11Convertible", "version"]
+- !private ["P10KittenCore11Convertible", "versionArray"]
+- ["P10KittenCore11Convertible", ""]
+- !private ["Ps28CustomDebugStringConvertible", "components"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "flatMap"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "components"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "components"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "flatMap"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "components"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "flatMap"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["V4BSON8Document", "init"]
+- !private ["V4BSON8Document", "subscript"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "components"]
+- ["Ps9Equatable", "convert"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "major"]
+- ["Ps9Equatable", "makeBinary"]
+- ["Ps9Equatable", "makePrimitive"]
+- !private ["Ps9Equatable", "minor"]
+- !private ["Ps9Equatable", "patch"]
+- !private ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", "typeIdentifier"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "invalidBuildInfoDocument"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "flatMap"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "components"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "components"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "components"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["P11MongoKitten23ExpressionRepresentable", "_getBuiltinLogicValue"]
+- !private ["P11MongoKitten23ExpressionRepresentable", "components"]
+- !private ["P11MongoKitten23ExpressionRepresentable", "init"]
+- !private ["P11MongoKitten23ExpressionRepresentable", "subscript"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "components"]
+- !private ["Ps8Hashable", "init"]
+- !private ["P11CryptoSwift9Initiable", "init"]
+- !private ["P10KittenCore19InitializableObject", "init"]
+- !private ["P10KittenCore19InitializableObject", "subscript"]
+- !private ["P10KittenCore21InitializableSequence", "count"]
+- !private ["P10KittenCore21InitializableSequence", "flatMap"]
+- !private ["P10KittenCore21InitializableSequence", "init"]
+- !private ["P10KittenCore21InitializableSequence", "subscript"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["P10KittenCore12KittenString", "components"]
+- !private ["P10KittenCore12KittenString", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "components"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "components"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["O11MongoKitten10MongoError", "deinit"]
+- !private ["O11MongoKitten10MongoError", "invalidBuildInfoDocument"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "flatMap"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["P4BSON9Primitive", "Bool"]
+- !private ["P4BSON9Primitive", "Document"]
+- !private ["P4BSON9Primitive", "Int"]
+- !private ["P4BSON9Primitive", "MongoError"]
+- !private ["P4BSON9Primitive", "String"]
+- !private ["P4BSON9Primitive", "Version"]
+- !private ["P4BSON9Primitive", "_getBuiltinLogicValue"]
+- !private ["P4BSON9Primitive", "bits"]
+- !private ["P4BSON9Primitive", "components"]
+- ["P4BSON9Primitive", "convert"]
+- !private ["P4BSON9Primitive", "count"]
+- !private ["P4BSON9Primitive", "debug"]
+- !private ["P4BSON9Primitive", "flatMap"]
+- !private ["P4BSON9Primitive", "gitVersion"]
+- !private ["P4BSON9Primitive", "init"]
+- !private ["P4BSON9Primitive", "major"]
+- ["P4BSON9Primitive", "makeBinary"]
+- ["P4BSON9Primitive", "makePrimitive"]
+- !private ["P4BSON9Primitive", "maxBsonObjectSize"]
+- !private ["P4BSON9Primitive", "minor"]
+- !private ["P4BSON9Primitive", "modules"]
+- !private ["P4BSON9Primitive", "openSSL"]
+- !private ["P4BSON9Primitive", "patch"]
+- !private ["P4BSON9Primitive", "storageEngines"]
+- !private ["P4BSON9Primitive", "subscript"]
+- ["P4BSON9Primitive", "typeIdentifier"]
+- !private ["P4BSON9Primitive", "version"]
+- !private ["P4BSON9Primitive", "versionArray"]
+- ["P4BSON9Primitive", ""]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "flatMap"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "flatMap"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "flatMap"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["P10KittenCore20SerializableSequence", "count"]
+- !private ["P10KittenCore20SerializableSequence", "flatMap"]
+- !private ["P10KittenCore20SerializableSequence", "init"]
+- !private ["P10KittenCore20SerializableSequence", "subscript"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["P10KittenCore17SimpleConvertible", "_getBuiltinLogicValue"]
+- !private ["P10KittenCore17SimpleConvertible", "components"]
+- !private ["P10KittenCore17SimpleConvertible", "init"]
+- !private ["P4BSON15SimplePrimitive", "_getBuiltinLogicValue"]
+- !private ["P4BSON15SimplePrimitive", "components"]
+- !private ["P4BSON15SimplePrimitive", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "components"]
+- !private ["SS", "init"]
+- !private ["P4BSON23SubscriptExpressionType", "components"]
+- !private ["P4BSON23SubscriptExpressionType", "init"]
+- !private ["Ps16TextOutputStream", "components"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "components"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P7Cheetah5Value", "_getBuiltinLogicValue"]
+- !private ["P7Cheetah5Value", "components"]
+- !private ["P7Cheetah5Value", "init"]
+- !private ["P11MongoKitten16ValueConvertible", "Bool"]
+- !private ["P11MongoKitten16ValueConvertible", "Document"]
+- !private ["P11MongoKitten16ValueConvertible", "Int"]
+- !private ["P11MongoKitten16ValueConvertible", "MongoError"]
+- !private ["P11MongoKitten16ValueConvertible", "String"]
+- !private ["P11MongoKitten16ValueConvertible", "Version"]
+- !private ["P11MongoKitten16ValueConvertible", "bits"]
+- ["P11MongoKitten16ValueConvertible", "convert"]
+- !private ["P11MongoKitten16ValueConvertible", "debug"]
+- !private ["P11MongoKitten16ValueConvertible", "gitVersion"]
+- !private ["P11MongoKitten16ValueConvertible", "init"]
+- !private ["P11MongoKitten16ValueConvertible", "major"]
+- ["P11MongoKitten16ValueConvertible", "makeBinary"]
+- ["P11MongoKitten16ValueConvertible", "makePrimitive"]
+- !private ["P11MongoKitten16ValueConvertible", "maxBsonObjectSize"]
+- !private ["P11MongoKitten16ValueConvertible", "minor"]
+- !private ["P11MongoKitten16ValueConvertible", "modules"]
+- !private ["P11MongoKitten16ValueConvertible", "openSSL"]
+- !private ["P11MongoKitten16ValueConvertible", "patch"]
+- !private ["P11MongoKitten16ValueConvertible", "storageEngines"]
+- ["P11MongoKitten16ValueConvertible", "typeIdentifier"]
+- !private ["P11MongoKitten16ValueConvertible", "version"]
+- !private ["P11MongoKitten16ValueConvertible", "versionArray"]
+- ["P11MongoKitten16ValueConvertible", ""]
+- ["V11MongoKitten7Version", "<"]
+- ["V11MongoKitten7Version", "<="]
+- ["V11MongoKitten7Version", "=="]
+- ["V11MongoKitten7Version", ">"]
+- ["V11MongoKitten7Version", ">="]
+- ["V11MongoKitten7Version", "BSON"]
+- ["V11MongoKitten7Version", "Bool"]
+- ["V11MongoKitten7Version", "Int"]
+- !private ["V11MongoKitten7Version", "String"]
+- ["V11MongoKitten7Version", "Version"]
+- ["V11MongoKitten7Version", "convert"]
+- ["V11MongoKitten7Version", "deinit"]
+- ["V11MongoKitten7Version", "init"]
+- ["V11MongoKitten7Version", "major"]
+- ["V11MongoKitten7Version", "makeBinary"]
+- ["V11MongoKitten7Version", "makePrimitive"]
+- ["V11MongoKitten7Version", "minor"]
+- ["V11MongoKitten7Version", "patch"]
+- ["V11MongoKitten7Version", "typeIdentifier"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "flatMap"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "flatMap"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "components"]
+- !private ["P10Foundation13_CFBridgeable", "count"]
+- !private ["P10Foundation13_CFBridgeable", "flatMap"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "flatMap"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "components"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "components"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "components"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "components"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "components"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "components"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "flatMap"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "flatMap"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "flatMap"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "components"]
+- !private ["P10Foundation13_NSBridgeable", "count"]
+- !private ["P10Foundation13_NSBridgeable", "flatMap"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "components"]
+- !private ["P10Foundation17_ObjectBridgeable", "count"]
+- !private ["P10Foundation17_ObjectBridgeable", "flatMap"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "components"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "count"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "flatMap"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "flatMap"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "flatMap"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "P11MongoKitten17BSONBytesProtocol"
+- !private "P4BSON17BSONBytesProtocol"
+- !private "Ps23BidirectionalCollection"
+- !private "P11CryptoSwift22BitshiftOperationsType"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "V11MongoKitten9BuildInfo"
+- !private "P11CryptoSwift15ByteConvertible"
+- !private "P11CryptoSwift11CSArrayType"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "P10KittenCore11Convertible"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V4BSON8Document"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P11MongoKitten23ExpressionRepresentable"
+- !private "Ps8Hashable"
+- !private "P11CryptoSwift9Initiable"
+- !private "P10KittenCore19InitializableObject"
+- !private "P10KittenCore21InitializableSequence"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "P10KittenCore12KittenString"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "O11MongoKitten10MongoError"
+- !private "Ps17MutableCollection"
+- "P4BSON9Primitive"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "P10KittenCore20SerializableSequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "P10KittenCore17SimpleConvertible"
+- !private "P4BSON15SimplePrimitive"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "P4BSON23SubscriptExpressionType"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P7Cheetah5Value"
+- "P11MongoKitten16ValueConvertible"
+- "V11MongoKitten7Version"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/BSON.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/GeoJSON.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KittenCore.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Cheetah.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Schrodinger.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/MongoSocket.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CryptoSwift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/KittenCTLS.git--3049334175900397724/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "211e13845e5409072794b7e26356c68c"

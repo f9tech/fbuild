@@ -1,0 +1,342 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FileResourceServer"
+provides-nominal:
+- "C6Kitura18FileResourceServer"
+provides-member:
+- ["C6Kitura18FileResourceServer", ""]
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "+="
+- !private "Array"
+- !private "AssignmentPrecedence"
+- !private "FileManager"
+- "FileResourceServer"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "Log"
+- !private "NSNotFound"
+- !private "NSRange"
+- !private "NSString"
+- "RouterResponse"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Ps9AnyObject", "FileManager"]
+- !private ["Ps9AnyObject", "Log"]
+- !private ["Ps9AnyObject", "NSNotFound"]
+- !private ["Ps9AnyObject", "NSRange"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "contentsOfDirectory"]
+- !private ["Ps9AnyObject", "currentDirectoryPath"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "end"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "fileExists"]
+- !private ["Ps9AnyObject", "getFilePath"]
+- !private ["Ps9AnyObject", "getResourcePathBasedOnCurrentDirectory"]
+- !private ["Ps9AnyObject", "getResourcePathBasedOnSourceLocation"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "length"]
+- !private ["Ps9AnyObject", "range"]
+- !private ["Ps9AnyObject", "send"]
+- !private ["Ps9AnyObject", "status"]
+- !private ["Ps9AnyObject", "substring"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps10Comparable", "hasSuffix"]
+- !private ["Ps10Comparable", "init"]
+- !private ["VC10Foundation8NSString14CompareOptions", "backwards"]
+- !private ["Ps28CustomDebugStringConvertible", "contentsOfDirectory"]
+- !private ["Ps28CustomDebugStringConvertible", "currentDirectoryPath"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "fileExists"]
+- !private ["Ps28CustomDebugStringConvertible", "hasSuffix"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "length"]
+- !private ["Ps28CustomDebugStringConvertible", "range"]
+- !private ["Ps28CustomDebugStringConvertible", "substring"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hasSuffix"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hasSuffix"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "contentsOfDirectory"]
+- !private ["Ps23CustomStringConvertible", "currentDirectoryPath"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "fileExists"]
+- !private ["Ps23CustomStringConvertible", "hasSuffix"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "length"]
+- !private ["Ps23CustomStringConvertible", "range"]
+- !private ["Ps23CustomStringConvertible", "substring"]
+- !private ["Ps9Equatable", "OK"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "backwards"]
+- !private ["Ps9Equatable", "contentsOfDirectory"]
+- !private ["Ps9Equatable", "currentDirectoryPath"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "fileExists"]
+- !private ["Ps9Equatable", "hasSuffix"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "length"]
+- !private ["Ps9Equatable", "notFound"]
+- !private ["Ps9Equatable", "range"]
+- !private ["Ps9Equatable", "substring"]
+- !private ["Ps25ExpressibleByArrayLiteral", "backwards"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hasSuffix"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "length"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "range"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "substring"]
+- !private ["Ps26ExpressibleByStringLiteral", "hasSuffix"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "length"]
+- !private ["Ps26ExpressibleByStringLiteral", "range"]
+- !private ["Ps26ExpressibleByStringLiteral", "substring"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hasSuffix"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "length"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "range"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "substring"]
+- !private ["C10Foundation11FileManager", "contentsOfDirectory"]
+- !private ["C10Foundation11FileManager", "currentDirectoryPath"]
+- !private ["C10Foundation11FileManager", "default"]
+- !private ["C10Foundation11FileManager", "fileExists"]
+- !private ["C6Kitura18FileResourceServer", "FileManager"]
+- !private ["C6Kitura18FileResourceServer", "Log"]
+- !private ["C6Kitura18FileResourceServer", "NSNotFound"]
+- !private ["C6Kitura18FileResourceServer", "NSRange"]
+- !private ["C6Kitura18FileResourceServer", "NSString"]
+- ["C6Kitura18FileResourceServer", "RouterResponse"]
+- ["C6Kitura18FileResourceServer", "String"]
+- ["C6Kitura18FileResourceServer", "deinit"]
+- !private ["C6Kitura18FileResourceServer", "getFilePath"]
+- !private ["C6Kitura18FileResourceServer", "getResourcePathBasedOnCurrentDirectory"]
+- !private ["C6Kitura18FileResourceServer", "getResourcePathBasedOnSourceLocation"]
+- ["C6Kitura18FileResourceServer", "init"]
+- ["C6Kitura18FileResourceServer", "sendIfFound"]
+- !private ["O9KituraNet14HTTPStatusCode", "OK"]
+- !private ["O9KituraNet14HTTPStatusCode", "notFound"]
+- !private ["Ps8Hashable", "OK"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "contentsOfDirectory"]
+- !private ["Ps8Hashable", "currentDirectoryPath"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "fileExists"]
+- !private ["Ps8Hashable", "hasSuffix"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "length"]
+- !private ["Ps8Hashable", "notFound"]
+- !private ["Ps8Hashable", "range"]
+- !private ["Ps8Hashable", "substring"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "hasSuffix"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["C9LoggerAPI3Log", "error"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "hasSuffix"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hasSuffix"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation8NSCoding", "length"]
+- !private ["P10Foundation8NSCoding", "range"]
+- !private ["P10Foundation8NSCoding", "substring"]
+- !private ["P10Foundation9NSCopying", "init"]
+- !private ["P10Foundation9NSCopying", "length"]
+- !private ["P10Foundation9NSCopying", "range"]
+- !private ["P10Foundation9NSCopying", "substring"]
+- !private ["P10Foundation16NSMutableCopying", "init"]
+- !private ["P10Foundation16NSMutableCopying", "length"]
+- !private ["P10Foundation16NSMutableCopying", "range"]
+- !private ["P10Foundation16NSMutableCopying", "substring"]
+- !private ["C10Foundation8NSObject", "contentsOfDirectory"]
+- !private ["C10Foundation8NSObject", "currentDirectoryPath"]
+- !private ["C10Foundation8NSObject", "default"]
+- !private ["C10Foundation8NSObject", "fileExists"]
+- !private ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "length"]
+- !private ["C10Foundation8NSObject", "range"]
+- !private ["C10Foundation8NSObject", "substring"]
+- !private ["P10Foundation16NSObjectProtocol", "contentsOfDirectory"]
+- !private ["P10Foundation16NSObjectProtocol", "currentDirectoryPath"]
+- !private ["P10Foundation16NSObjectProtocol", "default"]
+- !private ["P10Foundation16NSObjectProtocol", "fileExists"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "length"]
+- !private ["P10Foundation16NSObjectProtocol", "range"]
+- !private ["P10Foundation16NSObjectProtocol", "substring"]
+- !private ["P10Foundation14NSSecureCoding", "init"]
+- !private ["P10Foundation14NSSecureCoding", "length"]
+- !private ["P10Foundation14NSSecureCoding", "range"]
+- !private ["P10Foundation14NSSecureCoding", "substring"]
+- !private ["P10Foundation20NSSpecialValueCoding", "init"]
+- !private ["P10Foundation20NSSpecialValueCoding", "location"]
+- !private ["C10Foundation8NSString", "init"]
+- !private ["C10Foundation8NSString", "length"]
+- !private ["C10Foundation8NSString", "range"]
+- !private ["C10Foundation8NSString", "substring"]
+- !private ["Ps9OptionSet", "backwards"]
+- !private ["Ps16RawRepresentable", "OK"]
+- !private ["Ps16RawRepresentable", "backwards"]
+- !private ["Ps16RawRepresentable", "notFound"]
+- !private ["C6Kitura14RouterResponse", "end"]
+- !private ["C6Kitura14RouterResponse", "send"]
+- !private ["C6Kitura14RouterResponse", "status"]
+- !private ["Ps10SetAlgebra", "backwards"]
+- !private ["SS", "hasSuffix"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "hasSuffix"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "hasSuffix"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "hasSuffix"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "length"]
+- !private ["P10Foundation13_CFBridgeable", "range"]
+- !private ["P10Foundation13_CFBridgeable", "substring"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hasSuffix"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hasSuffix"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hasSuffix"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hasSuffix"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "hasSuffix"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "OK"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "contentsOfDirectory"]
+- !private ["Ps9_Hashable", "currentDirectoryPath"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "fileExists"]
+- !private ["Ps9_Hashable", "hasSuffix"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "length"]
+- !private ["Ps9_Hashable", "notFound"]
+- !private ["Ps9_Hashable", "range"]
+- !private ["Ps9_Hashable", "substring"]
+- !private ["P10Foundation13_NSBridgeable", "hasSuffix"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["V10Foundation8_NSRange", "init"]
+- !private ["V10Foundation8_NSRange", "location"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hasSuffix"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hasSuffix"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation17_StructBridgeable", "init"]
+- !private ["P10Foundation17_StructBridgeable", "length"]
+- !private ["P10Foundation17_StructBridgeable", "range"]
+- !private ["P10Foundation17_StructBridgeable", "substring"]
+- !private ["P10Foundation21_StructTypeBridgeable", "init"]
+- !private ["P10Foundation21_StructTypeBridgeable", "length"]
+- !private ["P10Foundation21_StructTypeBridgeable", "range"]
+- !private ["P10Foundation21_StructTypeBridgeable", "substring"]
+- !private ["P10Foundation16_SwiftBridgeable", "init"]
+- !private ["P10Foundation16_SwiftBridgeable", "length"]
+- !private ["P10Foundation16_SwiftBridgeable", "range"]
+- !private ["P10Foundation16_SwiftBridgeable", "substring"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps10Comparable"
+- !private "VC10Foundation8NSString14CompareOptions"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "C10Foundation11FileManager"
+- "C6Kitura18FileResourceServer"
+- !private "O9KituraNet14HTTPStatusCode"
+- !private "Ps8Hashable"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "C9LoggerAPI3Log"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "P10Foundation8NSCoding"
+- !private "P10Foundation9NSCopying"
+- !private "P10Foundation16NSMutableCopying"
+- !private "C10Foundation8NSObject"
+- !private "P10Foundation16NSObjectProtocol"
+- !private "P10Foundation14NSSecureCoding"
+- !private "P10Foundation20NSSpecialValueCoding"
+- !private "C10Foundation8NSString"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "C6Kitura14RouterResponse"
+- !private "Ps10SetAlgebra"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "V10Foundation8_NSRange"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "P10Foundation17_StructBridgeable"
+- !private "P10Foundation21_StructTypeBridgeable"
+- !private "P10Foundation16_SwiftBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/LoggerAPI.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/SwiftyJSON.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/SSLService.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KituraTemplateEngine.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Signals.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KituraNet.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Socket.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CEpoll.git--3614378031317191001/shim.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/http_parser.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/utils.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CCurl.git--2633223519878939690/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CEpoll.git--3614378031317191001/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/OpenSSL.git-4290884160847462041/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "7f3a8b9186df74005cb8163cf929cb13"

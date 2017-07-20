@@ -1,0 +1,151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HeliumStreamLogger"
+provides-nominal:
+- "C12HeliumLogger18HeliumStreamLogger"
+provides-member:
+- ["C12HeliumLogger18HeliumStreamLogger", ""]
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- "HeliumLogger"
+- "HeliumStreamLogger"
+- !private "IntegerLiteralType"
+- !private "Log"
+- "LoggerMessageType"
+- "String"
+- !private "StringLiteralType"
+- "TextOutputStream"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "HeliumStreamLogger"]
+- !private ["Ps9AnyObject", "Log"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "logger"]
+- !private ["Ps9AnyObject", "outputStream"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "verbose"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "verbose"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "verbose"]
+- !private ["C12HeliumLogger12HeliumLogger", "HeliumStreamLogger"]
+- !private ["C12HeliumLogger12HeliumLogger", "Log"]
+- ["C12HeliumLogger12HeliumLogger", "LoggerMessageType"]
+- ["C12HeliumLogger12HeliumLogger", "OutputStream"]
+- ["C12HeliumLogger12HeliumLogger", "String"]
+- ["C12HeliumLogger12HeliumLogger", "doPrint"]
+- ["C12HeliumLogger12HeliumLogger", "init"]
+- ["C12HeliumLogger12HeliumLogger", "outputStream"]
+- !private ["C12HeliumLogger12HeliumLogger", "print"]
+- ["C12HeliumLogger12HeliumLogger", "use"]
+- ["C12HeliumLogger12HeliumLogger", ""]
+- !private ["C12HeliumLogger18HeliumStreamLogger", "HeliumStreamLogger"]
+- !private ["C12HeliumLogger18HeliumStreamLogger", "Log"]
+- ["C12HeliumLogger18HeliumStreamLogger", "LoggerMessageType"]
+- ["C12HeliumLogger18HeliumStreamLogger", "OutputStream"]
+- ["C12HeliumLogger18HeliumStreamLogger", "String"]
+- ["C12HeliumLogger18HeliumStreamLogger", "deinit"]
+- ["C12HeliumLogger18HeliumStreamLogger", "doPrint"]
+- ["C12HeliumLogger18HeliumStreamLogger", "init"]
+- !private ["C12HeliumLogger18HeliumStreamLogger", "outputStream"]
+- !private ["C12HeliumLogger18HeliumStreamLogger", "print"]
+- ["C12HeliumLogger18HeliumStreamLogger", "use"]
+- !private ["C9LoggerAPI3Log", "logger"]
+- !private ["P9LoggerAPI6Logger", "HeliumStreamLogger"]
+- !private ["P9LoggerAPI6Logger", "Log"]
+- !private ["P9LoggerAPI6Logger", "init"]
+- !private ["P9LoggerAPI6Logger", "outputStream"]
+- !private ["P9LoggerAPI6Logger", "print"]
+- ["P9LoggerAPI6Logger", ""]
+- !private ["O9LoggerAPI17LoggerMessageType", "verbose"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps16RawRepresentable", "verbose"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "verbose"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "C12HeliumLogger12HeliumLogger"
+- "C12HeliumLogger18HeliumStreamLogger"
+- !private "C9LoggerAPI3Log"
+- "P9LoggerAPI6Logger"
+- !private "O9LoggerAPI17LoggerMessageType"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps16RawRepresentable"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/LoggerAPI.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "da5a7ad5022849f7505abead272a6a52"

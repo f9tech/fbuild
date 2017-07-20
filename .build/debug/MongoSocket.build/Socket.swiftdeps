@@ -1,0 +1,887 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MongoSocket"
+- "=="
+provides-nominal:
+- "C11MongoSocket11MongoSocket"
+- "OC11MongoSocket11MongoSocket5Error"
+provides-member:
+- ["C11MongoSocket11MongoSocket", ""]
+- ["OC11MongoSocket11MongoSocket5Error", ""]
+depends-top-level:
+- !private "!"
+- !private "&+"
+- !private "<"
+- "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- !private "AF_INET"
+- !private "AF_INET6"
+- !private "AF_UNSPEC"
+- !private "AI_PASSIVE"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Buffer"
+- "CastingPrecedence"
+- "DispatchQoS"
+- "DispatchQueue"
+- !private "DispatchSource"
+- "DispatchSourceRead"
+- "ErrorCallback"
+- !private "FloatLiteralType"
+- !private "Glibc"
+- !private "IPPROTO_TCP"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- !private "MemoryLayout"
+- "MongoSocket"
+- "MongoTCP"
+- "NSLock"
+- !private "OPENSSL_add_all_algorithms_conf"
+- !private "OPENSSL_config"
+- !private "OpaquePointer"
+- "ReadCallback"
+- !private "SIGPIPE"
+- !private "SIG_IGN"
+- !private "SOCK_STREAM"
+- !private "SOL_SOCKET"
+- !private "SO_ERROR"
+- "SSL"
+- !private "SSL_CTRL_MODE"
+- !private "SSL_CTRL_OPTIONS"
+- !private "SSL_CTRL_SET_TLSEXT_HOSTNAME"
+- "SSL_CTX"
+- !private "SSL_CTX_ctrl"
+- !private "SSL_CTX_free"
+- !private "SSL_CTX_load_verify_locations"
+- !private "SSL_CTX_new"
+- !private "SSL_CTX_set_cipher_list"
+- !private "SSL_CTX_set_verify"
+- "SSL_METHOD"
+- !private "SSL_MODE_AUTO_RETRY"
+- !private "SSL_OP_NO_COMPRESSION"
+- !private "SSL_OP_NO_SSLv2"
+- !private "SSL_OP_NO_SSLv3"
+- !private "SSL_VERIFY_NONE"
+- !private "SSL_connect"
+- !private "SSL_ctrl"
+- !private "SSL_do_handshake"
+- !private "SSL_library_init"
+- !private "SSL_load_error_strings"
+- !private "SSL_new"
+- !private "SSL_read"
+- !private "SSL_set_fd"
+- !private "SSL_write"
+- !private "SSLv23_client_method"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- !private "TLSEXT_NAMETYPE_host_name"
+- "TernaryPrecedence"
+- "UInt16"
+- "UInt8"
+- !private "UnsafeBufferPointer"
+- "UnsafeMutablePointer"
+- "UnsafePointer"
+- !private "addrinfo"
+- !private "connect"
+- !private "freeaddrinfo"
+- !private "getaddrinfo"
+- !private "getsockopt"
+- !private "numericCast"
+- !private "signal"
+- !private "sockaddr"
+- !private "sockaddr_in"
+- !private "sockaddr_in6"
+- !private "sockaddr_storage"
+- !private "socket"
+- !private "socklen_t"
+- !private "|"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "AF_INET"]
+- !private ["Ps9AnyObject", "AF_INET6"]
+- !private ["Ps9AnyObject", "AF_UNSPEC"]
+- !private ["Ps9AnyObject", "AI_PASSIVE"]
+- !private ["Ps9AnyObject", "Array"]
+- !private ["Ps9AnyObject", "Buffer"]
+- ["Ps9AnyObject", "DispatchQoS"]
+- ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "DispatchSource"]
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "Glibc"]
+- !private ["Ps9AnyObject", "IPPROTO_TCP"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "Int32"]
+- !private ["Ps9AnyObject", "MemoryLayout"]
+- !private ["Ps9AnyObject", "MongoSocket"]
+- ["Ps9AnyObject", "NSLock"]
+- !private ["Ps9AnyObject", "OPENSSL_add_all_algorithms_conf"]
+- !private ["Ps9AnyObject", "OPENSSL_config"]
+- !private ["Ps9AnyObject", "OpaquePointer"]
+- !private ["Ps9AnyObject", "SIGPIPE"]
+- !private ["Ps9AnyObject", "SIG_IGN"]
+- !private ["Ps9AnyObject", "SOCK_STREAM"]
+- !private ["Ps9AnyObject", "SOL_SOCKET"]
+- !private ["Ps9AnyObject", "SO_ERROR"]
+- !private ["Ps9AnyObject", "SSL_CTRL_MODE"]
+- !private ["Ps9AnyObject", "SSL_CTRL_OPTIONS"]
+- !private ["Ps9AnyObject", "SSL_CTRL_SET_TLSEXT_HOSTNAME"]
+- !private ["Ps9AnyObject", "SSL_CTX_ctrl"]
+- !private ["Ps9AnyObject", "SSL_CTX_free"]
+- !private ["Ps9AnyObject", "SSL_CTX_load_verify_locations"]
+- !private ["Ps9AnyObject", "SSL_CTX_new"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_cipher_list"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_verify"]
+- !private ["Ps9AnyObject", "SSL_MODE_AUTO_RETRY"]
+- !private ["Ps9AnyObject", "SSL_OP_NO_COMPRESSION"]
+- !private ["Ps9AnyObject", "SSL_OP_NO_SSLv2"]
+- !private ["Ps9AnyObject", "SSL_OP_NO_SSLv3"]
+- !private ["Ps9AnyObject", "SSL_VERIFY_NONE"]
+- !private ["Ps9AnyObject", "SSL_connect"]
+- !private ["Ps9AnyObject", "SSL_ctrl"]
+- !private ["Ps9AnyObject", "SSL_do_handshake"]
+- !private ["Ps9AnyObject", "SSL_library_init"]
+- !private ["Ps9AnyObject", "SSL_load_error_strings"]
+- !private ["Ps9AnyObject", "SSL_new"]
+- !private ["Ps9AnyObject", "SSL_read"]
+- !private ["Ps9AnyObject", "SSL_set_fd"]
+- !private ["Ps9AnyObject", "SSL_write"]
+- !private ["Ps9AnyObject", "SSLv23_client_method"]
+- !private ["Ps9AnyObject", "TLSEXT_NAMETYPE_host_name"]
+- !private ["Ps9AnyObject", "UInt16"]
+- !private ["Ps9AnyObject", "UInt8"]
+- !private ["Ps9AnyObject", "UnsafeBufferPointer"]
+- !private ["Ps9AnyObject", "UnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "addrinfo"]
+- ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "connect"]
+- !private ["Ps9AnyObject", "freeaddrinfo"]
+- !private ["Ps9AnyObject", "getaddrinfo"]
+- !private ["Ps9AnyObject", "getsockopt"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initialized"]
+- ["Ps9AnyObject", "isConnected"]
+- !private ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "makeReadSource"]
+- !private ["Ps9AnyObject", "numericCast"]
+- !private ["Ps9AnyObject", "onError"]
+- !private ["Ps9AnyObject", "onRead"]
+- !private ["Ps9AnyObject", "operationLock"]
+- !private ["Ps9AnyObject", "plainClient"]
+- !private ["Ps9AnyObject", "pointer"]
+- !private ["Ps9AnyObject", "readSource"]
+- ["Ps9AnyObject", "send"]
+- !private ["Ps9AnyObject", "signal"]
+- !private ["Ps9AnyObject", "sockaddr_storage"]
+- !private ["Ps9AnyObject", "socket"]
+- !private ["Ps9AnyObject", "socketQueue"]
+- !private ["Ps9AnyObject", "socklen_t"]
+- !private ["Ps9AnyObject", "sslClient"]
+- !private ["Ps9AnyObject", "sslContext"]
+- !private ["Ps9AnyObject", "sslEnabled"]
+- !private ["Ps9AnyObject", "sslMethod"]
+- !private ["Ps9AnyObject", "unlock"]
+- !private ["Ps9AnyObject", "usedCapacity"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "baseAddress"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps17BitwiseOperations", "description"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps17BitwiseOperations", "max"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["C11MongoSocket6Buffer", "init"]
+- !private ["C11MongoSocket6Buffer", "pointer"]
+- !private ["C11MongoSocket6Buffer", "usedCapacity"]
+- !private ["Ps7CVarArg", "advanced"]
+- !private ["Ps7CVarArg", "allocate"]
+- !private ["Ps7CVarArg", "assign"]
+- !private ["Ps7CVarArg", "description"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initialize"]
+- !private ["Ps7CVarArg", "max"]
+- !private ["Ps7CVarArg", "pointee"]
+- !private ["Ps10Collection", "baseAddress"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "advanced"]
+- !private ["Ps10Comparable", "allocate"]
+- !private ["Ps10Comparable", "assign"]
+- !private ["Ps10Comparable", "description"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "initialize"]
+- !private ["Ps10Comparable", "max"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps10Comparable", "utf8"]
+- !private ["Ps28CustomDebugStringConvertible", "advanced"]
+- !private ["Ps28CustomDebugStringConvertible", "allocate"]
+- !private ["Ps28CustomDebugStringConvertible", "assign"]
+- !private ["Ps28CustomDebugStringConvertible", "baseAddress"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initialize"]
+- !private ["Ps28CustomDebugStringConvertible", "lock"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "unlock"]
+- !private ["Ps28CustomDebugStringConvertible", "utf8"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "advanced"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "assign"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "description"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "initialize"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "max"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "utf8"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "advanced"]
+- !private ["Ps17CustomReflectable", "allocate"]
+- !private ["Ps17CustomReflectable", "assign"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "description"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "initialize"]
+- !private ["Ps17CustomReflectable", "max"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "utf8"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lock"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "unlock"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["C8Dispatch14DispatchObject", "makeReadSource"]
+- ["V8Dispatch11DispatchQoS", "userInteractive"]
+- ["C8Dispatch13DispatchQueue", "init"]
+- !private ["C8Dispatch14DispatchSource", "makeReadSource"]
+- !private ["P8Dispatch22DispatchSourceProtocol", "cancel"]
+- !private ["P8Dispatch22DispatchSourceProtocol", "makeReadSource"]
+- !private ["P8Dispatch22DispatchSourceProtocol", "resume"]
+- !private ["P8Dispatch22DispatchSourceProtocol", "setCancelHandler"]
+- !private ["P8Dispatch22DispatchSourceProtocol", "setEventHandler"]
+- !private ["P8Dispatch18DispatchSourceRead", "cancel"]
+- !private ["P8Dispatch18DispatchSourceRead", "makeReadSource"]
+- !private ["P8Dispatch18DispatchSourceRead", "resume"]
+- !private ["P8Dispatch18DispatchSourceRead", "setCancelHandler"]
+- !private ["P8Dispatch18DispatchSourceRead", "setEventHandler"]
+- !private ["P8Dispatch20DispatchSourceSignal", "makeReadSource"]
+- !private ["P8Dispatch19DispatchSourceTimer", "makeReadSource"]
+- !private ["P8Dispatch25DispatchSourceUserDataAdd", "makeReadSource"]
+- !private ["P8Dispatch24DispatchSourceUserDataOr", "makeReadSource"]
+- !private ["P8Dispatch19DispatchSourceWrite", "makeReadSource"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "advanced"]
+- !private ["Ps9Equatable", "allocate"]
+- !private ["Ps9Equatable", "assign"]
+- !private ["Ps9Equatable", "cannotConnect"]
+- !private ["Ps9Equatable", "cannotCreateContext"]
+- !private ["Ps9Equatable", "cannotRead"]
+- !private ["Ps9Equatable", "cannotSendData"]
+- !private ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initialize"]
+- !private ["Ps9Equatable", "ipAddressResolutionFailed"]
+- !private ["Ps9Equatable", "lock"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "unlock"]
+- ["Ps9Equatable", "userInteractive"]
+- !private ["Ps9Equatable", "utf8"]
+- ["Ps9Equatable", ""]
+- ["OC11MongoSocket11MongoSocket5Error", "=="]
+- ["OC11MongoSocket11MongoSocket5Error", "_code"]
+- ["OC11MongoSocket11MongoSocket5Error", "_domain"]
+- ["OC11MongoSocket11MongoSocket5Error", "_toAnyHashable"]
+- ["OC11MongoSocket11MongoSocket5Error", "_userInfo"]
+- ["OC11MongoSocket11MongoSocket5Error", "cannotConnect"]
+- ["OC11MongoSocket11MongoSocket5Error", "cannotCreateContext"]
+- ["OC11MongoSocket11MongoSocket5Error", "cannotRead"]
+- ["OC11MongoSocket11MongoSocket5Error", "cannotSendData"]
+- ["OC11MongoSocket11MongoSocket5Error", "deinit"]
+- ["OC11MongoSocket11MongoSocket5Error", "disconnectedByPeer"]
+- ["OC11MongoSocket11MongoSocket5Error", "hashValue"]
+- ["OC11MongoSocket11MongoSocket5Error", "ipAddressResolutionFailed"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "cannotConnect"]
+- !private ["Ps5Error", "cannotCreateContext"]
+- !private ["Ps5Error", "cannotRead"]
+- !private ["Ps5Error", "cannotSendData"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "ipAddressResolutionFailed"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "description"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "max"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "utf8"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "description"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "max"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "utf8"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "advanced"]
+- !private ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "assign"]
+- !private ["Ps8Hashable", "cannotConnect"]
+- !private ["Ps8Hashable", "cannotCreateContext"]
+- !private ["Ps8Hashable", "cannotRead"]
+- !private ["Ps8Hashable", "cannotSendData"]
+- !private ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initialize"]
+- !private ["Ps8Hashable", "ipAddressResolutionFailed"]
+- !private ["Ps8Hashable", "lock"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "unlock"]
+- !private ["Ps8Hashable", "utf8"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Si", "init"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "description"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps7Integer", "max"]
+- !private ["Ps17IntegerArithmetic", "description"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps17IntegerArithmetic", "max"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "utf8"]
+- !private ["Os12MemoryLayout", "size"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "utf8"]
+- !private ["C11MongoSocket11MongoSocket", "AF_INET"]
+- !private ["C11MongoSocket11MongoSocket", "AF_INET6"]
+- !private ["C11MongoSocket11MongoSocket", "AF_UNSPEC"]
+- !private ["C11MongoSocket11MongoSocket", "AI_PASSIVE"]
+- !private ["C11MongoSocket11MongoSocket", "Array"]
+- ["C11MongoSocket11MongoSocket", "Bool"]
+- !private ["C11MongoSocket11MongoSocket", "Buffer"]
+- ["C11MongoSocket11MongoSocket", "DispatchQoS"]
+- ["C11MongoSocket11MongoSocket", "DispatchQueue"]
+- !private ["C11MongoSocket11MongoSocket", "DispatchSource"]
+- ["C11MongoSocket11MongoSocket", "DispatchSourceRead"]
+- ["C11MongoSocket11MongoSocket", "Error"]
+- ["C11MongoSocket11MongoSocket", "ErrorCallback"]
+- !private ["C11MongoSocket11MongoSocket", "Glibc"]
+- !private ["C11MongoSocket11MongoSocket", "IPPROTO_TCP"]
+- ["C11MongoSocket11MongoSocket", "Int"]
+- ["C11MongoSocket11MongoSocket", "Int32"]
+- !private ["C11MongoSocket11MongoSocket", "MemoryLayout"]
+- !private ["C11MongoSocket11MongoSocket", "MongoSocket"]
+- ["C11MongoSocket11MongoSocket", "NSLock"]
+- !private ["C11MongoSocket11MongoSocket", "OPENSSL_add_all_algorithms_conf"]
+- !private ["C11MongoSocket11MongoSocket", "OPENSSL_config"]
+- !private ["C11MongoSocket11MongoSocket", "OpaquePointer"]
+- ["C11MongoSocket11MongoSocket", "ReadCallback"]
+- !private ["C11MongoSocket11MongoSocket", "SIGPIPE"]
+- !private ["C11MongoSocket11MongoSocket", "SIG_IGN"]
+- !private ["C11MongoSocket11MongoSocket", "SOCK_STREAM"]
+- !private ["C11MongoSocket11MongoSocket", "SOL_SOCKET"]
+- !private ["C11MongoSocket11MongoSocket", "SO_ERROR"]
+- ["C11MongoSocket11MongoSocket", "SSL"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_CTRL_MODE"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_CTRL_OPTIONS"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_CTRL_SET_TLSEXT_HOSTNAME"]
+- ["C11MongoSocket11MongoSocket", "SSL_CTX"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_CTX_ctrl"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_CTX_free"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_CTX_load_verify_locations"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_CTX_new"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_CTX_set_cipher_list"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_CTX_set_verify"]
+- ["C11MongoSocket11MongoSocket", "SSL_METHOD"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_MODE_AUTO_RETRY"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_OP_NO_COMPRESSION"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_OP_NO_SSLv2"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_OP_NO_SSLv3"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_VERIFY_NONE"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_connect"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_ctrl"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_do_handshake"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_library_init"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_load_error_strings"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_new"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_read"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_set_fd"]
+- !private ["C11MongoSocket11MongoSocket", "SSL_write"]
+- !private ["C11MongoSocket11MongoSocket", "SSLv23_client_method"]
+- ["C11MongoSocket11MongoSocket", "String"]
+- ["C11MongoSocket11MongoSocket", "Swift"]
+- !private ["C11MongoSocket11MongoSocket", "TLSEXT_NAMETYPE_host_name"]
+- ["C11MongoSocket11MongoSocket", "UInt16"]
+- ["C11MongoSocket11MongoSocket", "UInt8"]
+- !private ["C11MongoSocket11MongoSocket", "UnsafeBufferPointer"]
+- ["C11MongoSocket11MongoSocket", "UnsafeMutablePointer"]
+- ["C11MongoSocket11MongoSocket", "UnsafePointer"]
+- !private ["C11MongoSocket11MongoSocket", "addrinfo"]
+- ["C11MongoSocket11MongoSocket", "close"]
+- !private ["C11MongoSocket11MongoSocket", "connect"]
+- ["C11MongoSocket11MongoSocket", "deinit"]
+- !private ["C11MongoSocket11MongoSocket", "freeaddrinfo"]
+- !private ["C11MongoSocket11MongoSocket", "getaddrinfo"]
+- !private ["C11MongoSocket11MongoSocket", "getsockopt"]
+- ["C11MongoSocket11MongoSocket", "init"]
+- !private ["C11MongoSocket11MongoSocket", "initialized"]
+- ["C11MongoSocket11MongoSocket", "isConnected"]
+- !private ["C11MongoSocket11MongoSocket", "numericCast"]
+- ["C11MongoSocket11MongoSocket", "onError"]
+- ["C11MongoSocket11MongoSocket", "onRead"]
+- !private ["C11MongoSocket11MongoSocket", "operationLock"]
+- ["C11MongoSocket11MongoSocket", "plainClient"]
+- !private ["C11MongoSocket11MongoSocket", "readSource"]
+- ["C11MongoSocket11MongoSocket", "send"]
+- !private ["C11MongoSocket11MongoSocket", "signal"]
+- !private ["C11MongoSocket11MongoSocket", "sockaddr"]
+- !private ["C11MongoSocket11MongoSocket", "sockaddr_in"]
+- !private ["C11MongoSocket11MongoSocket", "sockaddr_in6"]
+- !private ["C11MongoSocket11MongoSocket", "sockaddr_storage"]
+- !private ["C11MongoSocket11MongoSocket", "socket"]
+- !private ["C11MongoSocket11MongoSocket", "socketQueue"]
+- !private ["C11MongoSocket11MongoSocket", "socklen_t"]
+- !private ["C11MongoSocket11MongoSocket", "sslClient"]
+- !private ["C11MongoSocket11MongoSocket", "sslContext"]
+- !private ["C11MongoSocket11MongoSocket", "sslEnabled"]
+- !private ["C11MongoSocket11MongoSocket", "sslMethod"]
+- !private ["P11MongoSocket8MongoTCP", "AF_INET"]
+- !private ["P11MongoSocket8MongoTCP", "AF_INET6"]
+- !private ["P11MongoSocket8MongoTCP", "AF_UNSPEC"]
+- !private ["P11MongoSocket8MongoTCP", "AI_PASSIVE"]
+- !private ["P11MongoSocket8MongoTCP", "Array"]
+- !private ["P11MongoSocket8MongoTCP", "Buffer"]
+- ["P11MongoSocket8MongoTCP", "DispatchQoS"]
+- ["P11MongoSocket8MongoTCP", "DispatchQueue"]
+- !private ["P11MongoSocket8MongoTCP", "DispatchSource"]
+- !private ["P11MongoSocket8MongoTCP", "Error"]
+- !private ["P11MongoSocket8MongoTCP", "Glibc"]
+- !private ["P11MongoSocket8MongoTCP", "IPPROTO_TCP"]
+- !private ["P11MongoSocket8MongoTCP", "Int"]
+- !private ["P11MongoSocket8MongoTCP", "Int32"]
+- !private ["P11MongoSocket8MongoTCP", "MemoryLayout"]
+- !private ["P11MongoSocket8MongoTCP", "MongoSocket"]
+- ["P11MongoSocket8MongoTCP", "NSLock"]
+- !private ["P11MongoSocket8MongoTCP", "OPENSSL_add_all_algorithms_conf"]
+- !private ["P11MongoSocket8MongoTCP", "OPENSSL_config"]
+- !private ["P11MongoSocket8MongoTCP", "OpaquePointer"]
+- !private ["P11MongoSocket8MongoTCP", "SIGPIPE"]
+- !private ["P11MongoSocket8MongoTCP", "SIG_IGN"]
+- !private ["P11MongoSocket8MongoTCP", "SOCK_STREAM"]
+- !private ["P11MongoSocket8MongoTCP", "SOL_SOCKET"]
+- !private ["P11MongoSocket8MongoTCP", "SO_ERROR"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_CTRL_MODE"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_CTRL_OPTIONS"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_CTRL_SET_TLSEXT_HOSTNAME"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_CTX_ctrl"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_CTX_free"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_CTX_load_verify_locations"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_CTX_new"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_CTX_set_cipher_list"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_CTX_set_verify"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_MODE_AUTO_RETRY"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_OP_NO_COMPRESSION"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_OP_NO_SSLv2"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_OP_NO_SSLv3"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_VERIFY_NONE"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_connect"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_ctrl"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_do_handshake"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_library_init"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_load_error_strings"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_new"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_read"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_set_fd"]
+- !private ["P11MongoSocket8MongoTCP", "SSL_write"]
+- !private ["P11MongoSocket8MongoTCP", "SSLv23_client_method"]
+- !private ["P11MongoSocket8MongoTCP", "TLSEXT_NAMETYPE_host_name"]
+- !private ["P11MongoSocket8MongoTCP", "UInt16"]
+- !private ["P11MongoSocket8MongoTCP", "UInt8"]
+- !private ["P11MongoSocket8MongoTCP", "UnsafeBufferPointer"]
+- !private ["P11MongoSocket8MongoTCP", "UnsafeMutablePointer"]
+- !private ["P11MongoSocket8MongoTCP", "addrinfo"]
+- ["P11MongoSocket8MongoTCP", "close"]
+- !private ["P11MongoSocket8MongoTCP", "connect"]
+- !private ["P11MongoSocket8MongoTCP", "freeaddrinfo"]
+- !private ["P11MongoSocket8MongoTCP", "getaddrinfo"]
+- !private ["P11MongoSocket8MongoTCP", "getsockopt"]
+- ["P11MongoSocket8MongoTCP", "init"]
+- !private ["P11MongoSocket8MongoTCP", "initialized"]
+- ["P11MongoSocket8MongoTCP", "isConnected"]
+- !private ["P11MongoSocket8MongoTCP", "numericCast"]
+- !private ["P11MongoSocket8MongoTCP", "onError"]
+- !private ["P11MongoSocket8MongoTCP", "onRead"]
+- !private ["P11MongoSocket8MongoTCP", "operationLock"]
+- !private ["P11MongoSocket8MongoTCP", "plainClient"]
+- !private ["P11MongoSocket8MongoTCP", "readSource"]
+- ["P11MongoSocket8MongoTCP", "send"]
+- !private ["P11MongoSocket8MongoTCP", "signal"]
+- !private ["P11MongoSocket8MongoTCP", "sockaddr_storage"]
+- !private ["P11MongoSocket8MongoTCP", "socket"]
+- !private ["P11MongoSocket8MongoTCP", "socketQueue"]
+- !private ["P11MongoSocket8MongoTCP", "socklen_t"]
+- !private ["P11MongoSocket8MongoTCP", "sslClient"]
+- !private ["P11MongoSocket8MongoTCP", "sslContext"]
+- !private ["P11MongoSocket8MongoTCP", "sslEnabled"]
+- !private ["P11MongoSocket8MongoTCP", "sslMethod"]
+- ["P11MongoSocket8MongoTCP", ""]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- ["C10Foundation6NSLock", "init"]
+- !private ["C10Foundation6NSLock", "lock"]
+- !private ["C10Foundation6NSLock", "unlock"]
+- ["P10Foundation9NSLocking", "init"]
+- !private ["P10Foundation9NSLocking", "lock"]
+- !private ["P10Foundation9NSLocking", "unlock"]
+- ["C10Foundation8NSObject", "init"]
+- !private ["C10Foundation8NSObject", "lock"]
+- !private ["C10Foundation8NSObject", "unlock"]
+- ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation16NSObjectProtocol", "lock"]
+- !private ["P10Foundation16NSObjectProtocol", "unlock"]
+- !private ["Vs13OpaquePointer", "init"]
+- !private ["Ps22RandomAccessCollection", "baseAddress"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps8Sequence", "baseAddress"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "advanced"]
+- !private ["Ps10Strideable", "allocate"]
+- !private ["Ps10Strideable", "assign"]
+- !private ["Ps10Strideable", "description"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "initialize"]
+- !private ["Ps10Strideable", "max"]
+- !private ["Ps10Strideable", "pointee"]
+- ["SS", "init"]
+- !private ["SS", "utf8"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "utf8"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "utf8"]
+- !private ["Vs6UInt16", "description"]
+- !private ["Vs6UInt16", "max"]
+- !private ["Vs6UInt32", "init"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "init"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "assign"]
+- !private ["Sp", "init"]
+- !private ["Sp", "initialize"]
+- !private ["Sp", "pointee"]
+- !private ["SP", "advanced"]
+- !private ["Ps15UnsignedInteger", "description"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps15UnsignedInteger", "max"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "baseAddress"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation13_CFBridgeable", "count"]
+- ["P10Foundation13_CFBridgeable", "init"]
+- !private ["P10Foundation13_CFBridgeable", "subscript"]
+- !private ["P10Foundation13_CFBridgeable", "utf8"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "description"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "max"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "description"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "max"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "utf8"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "utf8"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "utf8"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "utf8"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "advanced"]
+- !private ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "assign"]
+- !private ["Ps9_Hashable", "cannotConnect"]
+- !private ["Ps9_Hashable", "cannotCreateContext"]
+- !private ["Ps9_Hashable", "cannotRead"]
+- !private ["Ps9_Hashable", "cannotSendData"]
+- !private ["Ps9_Hashable", "description"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initialize"]
+- !private ["Ps9_Hashable", "ipAddressResolutionFailed"]
+- !private ["Ps9_Hashable", "lock"]
+- !private ["Ps9_Hashable", "max"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "unlock"]
+- !private ["Ps9_Hashable", "utf8"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "description"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps14_Incrementable", "max"]
+- !private ["Ps10_Indexable", "baseAddress"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "baseAddress"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "description"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps8_Integer", "max"]
+- !private ["Ps18_IntegerArithmetic", "description"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps18_IntegerArithmetic", "max"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "count"]
+- ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation13_NSBridgeable", "subscript"]
+- !private ["P10Foundation13_NSBridgeable", "utf8"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "count"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "subscript"]
+- !private ["P10Foundation17_ObjectBridgeable", "utf8"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "count"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "subscript"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "utf8"]
+- !private ["Ps8_Pointer", "advanced"]
+- !private ["Ps8_Pointer", "allocate"]
+- !private ["Ps8_Pointer", "assign"]
+- !private ["Ps8_Pointer", "init"]
+- !private ["Ps8_Pointer", "initialize"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps22_RandomAccessIndexable", "baseAddress"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "advanced"]
+- !private ["Ps11_Strideable", "allocate"]
+- !private ["Ps11_Strideable", "assign"]
+- !private ["Ps11_Strideable", "description"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "initialize"]
+- !private ["Ps11_Strideable", "max"]
+- !private ["Ps11_Strideable", "pointee"]
+- !private ["Ps14_StringElement", "description"]
+- !private ["Ps14_StringElement", "max"]
+- !private ["VSC13__socket_type", "rawValue"]
+- !private ["VSC8addrinfo", "ai_addr"]
+- !private ["VSC8addrinfo", "ai_family"]
+- !private ["VSC8addrinfo", "ai_flags"]
+- !private ["VSC8addrinfo", "ai_protocol"]
+- !private ["VSC8addrinfo", "ai_socktype"]
+- !private ["VSC8addrinfo", "init"]
+- !private ["VSC8sockaddr", "sa_family"]
+- !private ["VSC16sockaddr_storage", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "C11MongoSocket6Buffer"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "C8Dispatch14DispatchObject"
+- "V8Dispatch11DispatchQoS"
+- "C8Dispatch13DispatchQueue"
+- !private "C8Dispatch14DispatchSource"
+- !private "P8Dispatch22DispatchSourceProtocol"
+- !private "P8Dispatch18DispatchSourceRead"
+- !private "P8Dispatch20DispatchSourceSignal"
+- !private "P8Dispatch19DispatchSourceTimer"
+- !private "P8Dispatch25DispatchSourceUserDataAdd"
+- !private "P8Dispatch24DispatchSourceUserDataOr"
+- !private "P8Dispatch19DispatchSourceWrite"
+- "Ps9Equatable"
+- "OC11MongoSocket11MongoSocket5Error"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- !private "Os12MemoryLayout"
+- "Ps10MirrorPath"
+- "C11MongoSocket11MongoSocket"
+- "P11MongoSocket8MongoTCP"
+- !private "Ps17MutableCollection"
+- "C10Foundation6NSLock"
+- "P10Foundation9NSLocking"
+- "C10Foundation8NSObject"
+- "P10Foundation16NSObjectProtocol"
+- !private "Vs13OpaquePointer"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "SR"
+- !private "Sp"
+- !private "SP"
+- !private "Ps15UnsignedInteger"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "Ps17_MutableIndexable"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+- !private "VSC13__socket_type"
+- !private "VSC8addrinfo"
+- !private "VSC8sockaddr"
+- !private "VSC16sockaddr_storage"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/KittenCTLS.git--3049334175900397724/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "f0362e902f355a6b6830075a6e009ab9"

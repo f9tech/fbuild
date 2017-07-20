@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/KituraSampleRouter.build/master.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/Sources/KituraSampleRouter/RouterCreator.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/KituraSampleRouter.build/RouterCreator.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/KituraSampleRouter.build/RouterCreator.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/KituraSampleRouter.build/RouterCreator~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/KituraSampleRouter.build/RouterCreator.swiftdeps"
+  }
+}

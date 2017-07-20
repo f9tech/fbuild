@@ -1,0 +1,5 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "59727230819dd8f2ac287d2ebba5e0ae"
+build_time: [553760463, 636242000]
+inputs:
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Schrodinger.git--6248948284440921839/Sources/Schrodinger.swift": [553760458, 0]

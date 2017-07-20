@@ -1,0 +1,200 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MultiLineString"
+provides-nominal:
+- "V7GeoJSON15MultiLineString"
+provides-member:
+- ["V7GeoJSON15MultiLineString", ""]
+depends-top-level:
+- "AssignmentPrecedence"
+- "BSON"
+- !private "Dictionary"
+- !private "Document"
+- "GeoJsonObjectType"
+- "Geometry"
+- "LineString"
+- "MultiLineString"
+- !private "StringLiteralType"
+- "ValueConvertible"
+depends-member:
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P10KittenCore11Convertible", "Document"]
+- ["P10KittenCore11Convertible", "convert"]
+- !private ["P10KittenCore11Convertible", "coordinates"]
+- !private ["P10KittenCore11Convertible", "init"]
+- ["P10KittenCore11Convertible", "makeBinary"]
+- ["P10KittenCore11Convertible", "makePrimitive"]
+- ["P10KittenCore11Convertible", "multiLineString"]
+- !private ["P10KittenCore11Convertible", "rawValue"]
+- ["P10KittenCore11Convertible", "type"]
+- ["P10KittenCore11Convertible", "typeIdentifier"]
+- ["P10KittenCore11Convertible", ""]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["V4BSON8Document", "init"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "multiLineString"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["O7GeoJSON17GeoJsonObjectType", "deinit"]
+- ["O7GeoJSON17GeoJsonObjectType", "multiLineString"]
+- !private ["O7GeoJSON17GeoJsonObjectType", "rawValue"]
+- !private ["P7GeoJSON8Geometry", "Document"]
+- ["P7GeoJSON8Geometry", "convert"]
+- !private ["P7GeoJSON8Geometry", "coordinates"]
+- ["P7GeoJSON8Geometry", "makeBinary"]
+- ["P7GeoJSON8Geometry", "makePrimitive"]
+- ["P7GeoJSON8Geometry", "type"]
+- ["P7GeoJSON8Geometry", "typeIdentifier"]
+- ["P7GeoJSON8Geometry", ""]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "multiLineString"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["P10KittenCore19InitializableObject", "init"]
+- !private ["P10KittenCore21InitializableSequence", "init"]
+- !private ["P10KittenCore12KittenString", "init"]
+- !private ["V7GeoJSON10LineString", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["V7GeoJSON15MultiLineString", "BSON"]
+- !private ["V7GeoJSON15MultiLineString", "Document"]
+- ["V7GeoJSON15MultiLineString", "GeoJsonObjectType"]
+- ["V7GeoJSON15MultiLineString", "LineString"]
+- ["V7GeoJSON15MultiLineString", "convert"]
+- ["V7GeoJSON15MultiLineString", "coordinates"]
+- ["V7GeoJSON15MultiLineString", "deinit"]
+- ["V7GeoJSON15MultiLineString", "init"]
+- ["V7GeoJSON15MultiLineString", "makeBinary"]
+- ["V7GeoJSON15MultiLineString", "makePrimitive"]
+- ["V7GeoJSON15MultiLineString", "type"]
+- ["V7GeoJSON15MultiLineString", "typeIdentifier"]
+- !private ["P4BSON9Primitive", "Document"]
+- ["P4BSON9Primitive", "convert"]
+- !private ["P4BSON9Primitive", "coordinates"]
+- !private ["P4BSON9Primitive", "init"]
+- ["P4BSON9Primitive", "makeBinary"]
+- ["P4BSON9Primitive", "makePrimitive"]
+- ["P4BSON9Primitive", "multiLineString"]
+- !private ["P4BSON9Primitive", "rawValue"]
+- ["P4BSON9Primitive", "type"]
+- ["P4BSON9Primitive", "typeIdentifier"]
+- ["P4BSON9Primitive", ""]
+- ["Ps16RawRepresentable", "multiLineString"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps8Sequence", "init"]
+- !private ["P10KittenCore20SerializableSequence", "init"]
+- !private ["P10KittenCore17SimpleConvertible", "init"]
+- !private ["P4BSON15SimplePrimitive", "init"]
+- !private ["SS", "init"]
+- !private ["P4BSON23SubscriptExpressionType", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P7GeoJSON16ValueConvertible", "Document"]
+- ["P7GeoJSON16ValueConvertible", "convert"]
+- !private ["P7GeoJSON16ValueConvertible", "coordinates"]
+- ["P7GeoJSON16ValueConvertible", "makeBinary"]
+- ["P7GeoJSON16ValueConvertible", "makePrimitive"]
+- ["P7GeoJSON16ValueConvertible", "multiLineString"]
+- !private ["P7GeoJSON16ValueConvertible", "rawValue"]
+- ["P7GeoJSON16ValueConvertible", "type"]
+- ["P7GeoJSON16ValueConvertible", "typeIdentifier"]
+- ["P7GeoJSON16ValueConvertible", ""]
+- !private ["P10Foundation13_CFBridgeable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "multiLineString"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["P10Foundation13_NSBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "P10KittenCore11Convertible"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V4BSON8Document"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O7GeoJSON17GeoJsonObjectType"
+- "P7GeoJSON8Geometry"
+- "Ps8Hashable"
+- !private "P10KittenCore19InitializableObject"
+- !private "P10KittenCore21InitializableSequence"
+- !private "P10KittenCore12KittenString"
+- !private "V7GeoJSON10LineString"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "V7GeoJSON15MultiLineString"
+- "P4BSON9Primitive"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "P10KittenCore20SerializableSequence"
+- !private "P10KittenCore17SimpleConvertible"
+- !private "P4BSON15SimplePrimitive"
+- !private "SS"
+- !private "P4BSON23SubscriptExpressionType"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "P7GeoJSON16ValueConvertible"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/BSON.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KittenCore.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/KittenCTLS.git--3049334175900397724/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "f5905a3b9152c05183d38fbd81eff3dd"

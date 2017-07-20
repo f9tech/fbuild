@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/HeliumLogger.build/master.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/HeliumLogger.git-5659461349745032735/Sources/HeliumLogger/HeliumStreamLogger.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/HeliumLogger.build/HeliumStreamLogger.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/HeliumLogger.build/HeliumStreamLogger.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/HeliumLogger.build/HeliumStreamLogger~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/HeliumLogger.build/HeliumStreamLogger.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/HeliumLogger.git-5659461349745032735/Sources/HeliumLogger/HeliumLogger.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/HeliumLogger.build/HeliumLogger.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/HeliumLogger.build/HeliumLogger.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/HeliumLogger.build/HeliumLogger~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/HeliumLogger.build/HeliumLogger.swiftdeps"
+  }
+}

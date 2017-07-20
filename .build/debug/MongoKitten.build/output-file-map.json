@@ -1,0 +1,269 @@
+{
+  "": {
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/master.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Error/MongoError.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/MongoError.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Error/MongoError.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/MongoError~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/MongoError.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Error/HelpfulErrors.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/HelpfulErrors.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Error/HelpfulErrors.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/HelpfulErrors~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/HelpfulErrors.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Collection/Collection+Geospatial.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection+Geospatial.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection/Collection+Geospatial.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection+Geospatial~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection+Geospatial.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Collection/Collection.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection/Collection.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Collection/Options.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Options.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection/Options.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Options~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Options.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Collection/CollectionSlice.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/CollectionSlice.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection/CollectionSlice.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/CollectionSlice~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/CollectionSlice.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Collection/Collection+Administration.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection+Administration.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection/Collection+Administration.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection+Administration~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Collection+Administration.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Database/Database+Administration.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+Administration.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database/Database+Administration.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+Administration~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+Administration.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Database/Database.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database/Database.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Database/Database+UserManagement.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+UserManagement.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database/Database+UserManagement.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+UserManagement~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+UserManagement.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Database/Database+RoleManagement.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+RoleManagement.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database/Database+RoleManagement.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+RoleManagement~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+RoleManagement.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/CRUD/CRUD.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/CRUD.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/CRUD/CRUD.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/CRUD~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/CRUD.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/BuildInfo.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/BuildInfo.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/BuildInfo.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/BuildInfo~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/BuildInfo.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/Logging.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Logging.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/Logging.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Logging~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Logging.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/GeoNearOption.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/GeoNearOption.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/GeoNearOption.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/GeoNearOption~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/GeoNearOption.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/Helpers.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/Helpers.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/Concern.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Concern.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/Concern.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Concern~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Concern.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/String+MongoKitten.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/String+MongoKitten.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/String+MongoKitten.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/String+MongoKitten~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/String+MongoKitten.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/Bool+String.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Bool+String.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/Bool+String.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Bool+String~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Bool+String.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/DocumentHelpers.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/DocumentHelpers.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/DocumentHelpers.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/DocumentHelpers~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/DocumentHelpers.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/SerializationHelpers.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/SerializationHelpers.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/SerializationHelpers.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/SerializationHelpers~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/SerializationHelpers.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Helpers/ValueConvertible.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/ValueConvertible.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Helpers/ValueConvertible.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/ValueConvertible~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/ValueConvertible.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Socket/Connection.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Connection.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Socket/Connection.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Connection.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Server/SSLSettings.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/SSLSettings.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Server/SSLSettings.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/SSLSettings~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/SSLSettings.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Server/Server.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Server.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Server/Server.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Server~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Server.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Server/ClientSettings+URL.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/ClientSettings+URL.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Server/ClientSettings+URL.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/ClientSettings+URL~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/ClientSettings+URL.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Server/ClientSettings.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/ClientSettings.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Server/ClientSettings.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/ClientSettings~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/ClientSettings.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Deprecated/Deprecated.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Deprecated.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Deprecated/Deprecated.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Deprecated.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Querying/DBRef.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/DBRef.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Querying/DBRef.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/DBRef~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/DBRef.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Querying/GridFS.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/GridFS.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Querying/GridFS.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/GridFS~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/GridFS.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Querying/Index.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Index.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Querying/Index.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Index~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Index.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Querying/Explain.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Explain.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Querying/Explain.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Explain~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Explain.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Querying/Sort.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Sort.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Querying/Sort.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Sort~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Sort.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Querying/Cursor.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Cursor.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Querying/Cursor.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Cursor~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Cursor.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Querying/PipelineBuilder.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/PipelineBuilder.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Querying/PipelineBuilder.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/PipelineBuilder~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/PipelineBuilder.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Querying/QueryBuilder.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/QueryBuilder.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Querying/QueryBuilder.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/QueryBuilder~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/QueryBuilder.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Querying/Projection.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Projection.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Querying/Projection.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Projection~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Projection.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Auth/SCRAM.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/SCRAM.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Auth/SCRAM.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/SCRAM~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/SCRAM.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Auth/Database+Authentication.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+Authentication.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Auth/Database+Authentication.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+Authentication~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Database+Authentication.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Auth/Base64_temp.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Base64_temp.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Auth/Base64_temp.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Base64_temp~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Base64_temp.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Internals/Message.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Message.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Internals/Message.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Message~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Message.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Internals/OperationCode.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/OperationCode.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Internals/OperationCode.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/OperationCode~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/OperationCode.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Internals/Flags.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Flags.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Internals/Flags.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Flags~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Flags.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoKitten/Internals/MongoDriverInformation.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/MongoDriverInformation.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/Internals/MongoDriverInformation.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/MongoDriverInformation~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/MongoKitten.build/MongoDriverInformation.swiftdeps"
+  }
+}

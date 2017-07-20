@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Signals.build/master.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/BlueSignals.git-6618121485435319901/Sources/Signals.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Signals.build/Signals.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/Signals.build/Signals.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/Signals.build/Signals~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Signals.build/Signals.swiftdeps"
+  }
+}

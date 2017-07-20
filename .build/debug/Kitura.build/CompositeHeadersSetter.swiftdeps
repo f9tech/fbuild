@@ -1,0 +1,167 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CompositeRelatedHeadersSetter"
+provides-nominal:
+- "C6Kitura29CompositeRelatedHeadersSetter"
+provides-member:
+- ["C6Kitura29CompositeRelatedHeadersSetter", ""]
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "CompositeRelatedHeadersSetter"
+- "FileAttributeKey"
+- "ResponseHeadersSetter"
+- "RouterResponse"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "responseHeadersSetters"]
+- ["Ps9AnyObject", "setCustomResponseHeaders"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "filter"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "filter"]
+- !private ["Ps23BidirectionalCollection", "forEach"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps10Collection", "filter"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps10Collection", "map"]
+- ["C6Kitura29CompositeRelatedHeadersSetter", "FileAttributeKey"]
+- ["C6Kitura29CompositeRelatedHeadersSetter", "ResponseHeadersSetter"]
+- ["C6Kitura29CompositeRelatedHeadersSetter", "RouterResponse"]
+- ["C6Kitura29CompositeRelatedHeadersSetter", "String"]
+- ["C6Kitura29CompositeRelatedHeadersSetter", "deinit"]
+- ["C6Kitura29CompositeRelatedHeadersSetter", "init"]
+- ["C6Kitura29CompositeRelatedHeadersSetter", "responseHeadersSetters"]
+- ["C6Kitura29CompositeRelatedHeadersSetter", "setCustomResponseHeaders"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps17CustomReflectable", "filter"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps25ExpressibleByArrayLiteral", "filter"]
+- !private ["Ps25ExpressibleByArrayLiteral", "forEach"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps17MutableCollection", "filter"]
+- !private ["Ps17MutableCollection", "forEach"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["Ps22RandomAccessCollection", "filter"]
+- !private ["Ps22RandomAccessCollection", "forEach"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "filter"]
+- !private ["Ps26RangeReplaceableCollection", "forEach"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["P6Kitura21ResponseHeadersSetter", "responseHeadersSetters"]
+- ["P6Kitura21ResponseHeadersSetter", "setCustomResponseHeaders"]
+- ["P6Kitura21ResponseHeadersSetter", ""]
+- !private ["Ps8Sequence", "filter"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps14_ArrayProtocol", "filter"]
+- !private ["Ps14_ArrayProtocol", "forEach"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "filter"]
+- !private ["Ps23_BidirectionalIndexable", "forEach"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["P10Foundation13_CFBridgeable", "filter"]
+- !private ["P10Foundation13_CFBridgeable", "forEach"]
+- !private ["P10Foundation13_CFBridgeable", "map"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "forEach"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps10_Indexable", "filter"]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps14_IndexableBase", "filter"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps17_MutableIndexable", "filter"]
+- !private ["Ps17_MutableIndexable", "forEach"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["P10Foundation13_NSBridgeable", "filter"]
+- !private ["P10Foundation13_NSBridgeable", "forEach"]
+- !private ["P10Foundation13_NSBridgeable", "map"]
+- !private ["P10Foundation17_ObjectBridgeable", "filter"]
+- !private ["P10Foundation17_ObjectBridgeable", "forEach"]
+- !private ["P10Foundation17_ObjectBridgeable", "map"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "filter"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "forEach"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "filter"]
+- !private ["Ps22_RandomAccessIndexable", "forEach"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "filter"]
+- !private ["Ps26_RangeReplaceableIndexable", "forEach"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps10Collection"
+- "C6Kitura29CompositeRelatedHeadersSetter"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps17MutableCollection"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "P6Kitura21ResponseHeadersSetter"
+- !private "Ps8Sequence"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "P10Foundation13_CFBridgeable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "P10Foundation13_NSBridgeable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/LoggerAPI.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/SwiftyJSON.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/SSLService.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KituraTemplateEngine.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Signals.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KituraNet.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Socket.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CEpoll.git--3614378031317191001/shim.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/http_parser.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-net.git--5408401142438715358/Sources/CHTTPParser/include/utils.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CCurl.git--2633223519878939690/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/CEpoll.git--3614378031317191001/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/OpenSSL.git-4290884160847462041/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "c54c1e623d4d9414ca7379d48fbdf6a0"

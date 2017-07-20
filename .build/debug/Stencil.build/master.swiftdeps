@@ -1,0 +1,23 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "2cd46ac0ed5841763885a48e3e4a03fb"
+build_time: [553760483, 107926000]
+inputs:
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/ForTag.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Loader.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/NowTag.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/IfTag.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Expression.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Variable.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Tokenizer.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Environment.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/FilterTag.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Inheritence.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Errors.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Context.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Parser.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Extension.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Lexer.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Template.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Filters.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Node.swift": [553760461, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Stencil--3267094522019200290/Sources/Include.swift": [553760461, 0]

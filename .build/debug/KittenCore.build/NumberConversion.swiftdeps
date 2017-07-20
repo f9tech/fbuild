@@ -1,0 +1,604 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "representSigned"
+- "representUnsigned"
+provides-nominal:
+- "Si"
+- "Vs4Int8"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Su"
+- "Vs5UInt8"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "V10Foundation4Date"
+- "Sd"
+provides-member:
+- ["Si", ""]
+- ["Vs4Int8", ""]
+- ["Vs5Int16", ""]
+- ["Vs5Int32", ""]
+- ["Vs5Int64", ""]
+- ["Su", ""]
+- ["Vs5UInt8", ""]
+- ["Vs6UInt16", ""]
+- ["Vs6UInt32", ""]
+- ["Vs6UInt64", ""]
+- ["V10Foundation4Date", ""]
+- ["Sd", ""]
+depends-top-level:
+- !private "<="
+- !private ">"
+- !private ">="
+- "CastingPrecedence"
+- "Date"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "IntegerLiteralType"
+- "SignedInteger"
+- "SimpleConvertible"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "UnsignedInteger"
+- !private "numericCast"
+- "representSigned"
+- "representUnsigned"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "Int"]
+- !private ["Ps16AbsoluteValuable", "UInt"]
+- ["Ps16AbsoluteValuable", "convert"]
+- !private ["Ps16AbsoluteValuable", "description"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "representSigned"]
+- !private ["Ps16AbsoluteValuable", "representUnsigned"]
+- !private ["Ps19BinaryFloatingPoint", "Int"]
+- !private ["Ps19BinaryFloatingPoint", "UInt"]
+- ["Ps19BinaryFloatingPoint", "convert"]
+- !private ["Ps19BinaryFloatingPoint", "description"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps19BinaryFloatingPoint", "representSigned"]
+- !private ["Ps19BinaryFloatingPoint", "representUnsigned"]
+- !private ["Ps17BitwiseOperations", "Double"]
+- ["Ps17BitwiseOperations", "convert"]
+- !private ["Ps17BitwiseOperations", "description"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps17BitwiseOperations", "max"]
+- !private ["Ps17BitwiseOperations", "min"]
+- !private ["Ps17BitwiseOperations", "representSigned"]
+- !private ["Ps17BitwiseOperations", "representUnsigned"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "Int"]
+- !private ["Ps7CVarArg", "UInt"]
+- ["Ps7CVarArg", "convert"]
+- !private ["Ps7CVarArg", "description"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "max"]
+- !private ["Ps7CVarArg", "min"]
+- !private ["Ps7CVarArg", "representSigned"]
+- !private ["Ps7CVarArg", "representUnsigned"]
+- !private ["Ps10Comparable", "Double"]
+- !private ["Ps10Comparable", "Int"]
+- !private ["Ps10Comparable", "UInt"]
+- ["Ps10Comparable", "convert"]
+- !private ["Ps10Comparable", "description"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "max"]
+- !private ["Ps10Comparable", "min"]
+- !private ["Ps10Comparable", "representSigned"]
+- !private ["Ps10Comparable", "representUnsigned"]
+- !private ["Ps10Comparable", "timeIntervalSince1970"]
+- !private ["P10KittenCore11Convertible", "Double"]
+- !private ["P10KittenCore11Convertible", "Int"]
+- !private ["P10KittenCore11Convertible", "UInt"]
+- !private ["P10KittenCore11Convertible", "_getBuiltinLogicValue"]
+- ["P10KittenCore11Convertible", "convert"]
+- !private ["P10KittenCore11Convertible", "description"]
+- !private ["P10KittenCore11Convertible", "init"]
+- !private ["P10KittenCore11Convertible", "max"]
+- !private ["P10KittenCore11Convertible", "min"]
+- !private ["P10KittenCore11Convertible", "representSigned"]
+- !private ["P10KittenCore11Convertible", "representUnsigned"]
+- !private ["P10KittenCore11Convertible", "timeIntervalSince1970"]
+- ["P10KittenCore11Convertible", ""]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "UInt"]
+- ["Ps28CustomDebugStringConvertible", "convert"]
+- !private ["Ps28CustomDebugStringConvertible", "description"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "representSigned"]
+- !private ["Ps28CustomDebugStringConvertible", "representUnsigned"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSince1970"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Double"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Int"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "UInt"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "convert"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "description"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "max"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "min"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "representSigned"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "representUnsigned"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSince1970"]
+- !private ["Ps17CustomReflectable", "Double"]
+- !private ["Ps17CustomReflectable", "Int"]
+- !private ["Ps17CustomReflectable", "UInt"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "convert"]
+- !private ["Ps17CustomReflectable", "description"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "max"]
+- !private ["Ps17CustomReflectable", "min"]
+- !private ["Ps17CustomReflectable", "representSigned"]
+- !private ["Ps17CustomReflectable", "representUnsigned"]
+- !private ["Ps17CustomReflectable", "timeIntervalSince1970"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "UInt"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "convert"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "min"]
+- !private ["Ps23CustomStringConvertible", "representSigned"]
+- !private ["Ps23CustomStringConvertible", "representUnsigned"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSince1970"]
+- !private ["V10Foundation4Date", "Int"]
+- ["V10Foundation4Date", "convert"]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "description"]
+- !private ["V10Foundation4Date", "representSigned"]
+- !private ["V10Foundation4Date", "timeIntervalSince1970"]
+- !private ["Sd", "Int"]
+- !private ["Sd", "UInt"]
+- ["Sd", "convert"]
+- ["Sd", "deinit"]
+- !private ["Sd", "description"]
+- !private ["Sd", "init"]
+- !private ["Sd", "representSigned"]
+- !private ["Sd", "representUnsigned"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "UInt"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "convert"]
+- !private ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "min"]
+- !private ["Ps9Equatable", "representSigned"]
+- !private ["Ps9Equatable", "representUnsigned"]
+- !private ["Ps9Equatable", "timeIntervalSince1970"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Int"]
+- !private ["Ps25ExpressibleByFloatLiteral", "UInt"]
+- ["Ps25ExpressibleByFloatLiteral", "convert"]
+- !private ["Ps25ExpressibleByFloatLiteral", "description"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "representSigned"]
+- !private ["Ps25ExpressibleByFloatLiteral", "representUnsigned"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Double"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Int"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "UInt"]
+- ["Ps27ExpressibleByIntegerLiteral", "convert"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "description"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "max"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "min"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "representSigned"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "representUnsigned"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Double"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "convert"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "description"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "representUnsigned"]
+- !private ["Ps13FloatingPoint", "Int"]
+- !private ["Ps13FloatingPoint", "UInt"]
+- ["Ps13FloatingPoint", "convert"]
+- !private ["Ps13FloatingPoint", "description"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps13FloatingPoint", "representSigned"]
+- !private ["Ps13FloatingPoint", "representUnsigned"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "UInt"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "convert"]
+- !private ["Ps8Hashable", "description"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "min"]
+- !private ["Ps8Hashable", "representSigned"]
+- !private ["Ps8Hashable", "representUnsigned"]
+- !private ["Ps8Hashable", "timeIntervalSince1970"]
+- !private ["Si", "Double"]
+- ["Si", "convert"]
+- ["Si", "deinit"]
+- !private ["Si", "description"]
+- !private ["Si", "init"]
+- !private ["Si", "max"]
+- !private ["Si", "min"]
+- !private ["Si", "representSigned"]
+- !private ["Vs5Int16", "Double"]
+- ["Vs5Int16", "convert"]
+- ["Vs5Int16", "deinit"]
+- !private ["Vs5Int16", "description"]
+- !private ["Vs5Int16", "max"]
+- !private ["Vs5Int16", "min"]
+- !private ["Vs5Int16", "representSigned"]
+- !private ["Vs5Int32", "Double"]
+- ["Vs5Int32", "convert"]
+- ["Vs5Int32", "deinit"]
+- !private ["Vs5Int32", "description"]
+- !private ["Vs5Int32", "max"]
+- !private ["Vs5Int32", "min"]
+- !private ["Vs5Int32", "representSigned"]
+- !private ["Vs5Int64", "Double"]
+- ["Vs5Int64", "convert"]
+- ["Vs5Int64", "deinit"]
+- !private ["Vs5Int64", "description"]
+- !private ["Vs5Int64", "init"]
+- !private ["Vs5Int64", "max"]
+- !private ["Vs5Int64", "min"]
+- !private ["Vs5Int64", "representSigned"]
+- !private ["Vs4Int8", "Double"]
+- ["Vs4Int8", "convert"]
+- ["Vs4Int8", "deinit"]
+- !private ["Vs4Int8", "description"]
+- !private ["Vs4Int8", "max"]
+- !private ["Vs4Int8", "min"]
+- !private ["Vs4Int8", "representSigned"]
+- !private ["Ps7Integer", "Double"]
+- ["Ps7Integer", "convert"]
+- !private ["Ps7Integer", "description"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps7Integer", "max"]
+- !private ["Ps7Integer", "min"]
+- !private ["Ps7Integer", "representSigned"]
+- !private ["Ps7Integer", "representUnsigned"]
+- !private ["Ps17IntegerArithmetic", "Double"]
+- ["Ps17IntegerArithmetic", "convert"]
+- !private ["Ps17IntegerArithmetic", "description"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps17IntegerArithmetic", "max"]
+- !private ["Ps17IntegerArithmetic", "min"]
+- !private ["Ps17IntegerArithmetic", "representSigned"]
+- !private ["Ps17IntegerArithmetic", "representUnsigned"]
+- !private ["Ps25LosslessStringConvertible", "Int"]
+- !private ["Ps25LosslessStringConvertible", "UInt"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "convert"]
+- !private ["Ps25LosslessStringConvertible", "description"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "representSigned"]
+- !private ["Ps25LosslessStringConvertible", "representUnsigned"]
+- !private ["Ps10MirrorPath", "Double"]
+- ["Ps10MirrorPath", "convert"]
+- !private ["Ps10MirrorPath", "description"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "max"]
+- !private ["Ps10MirrorPath", "min"]
+- !private ["Ps10MirrorPath", "representSigned"]
+- !private ["P10Foundation20ReferenceConvertible", "Int"]
+- ["P10Foundation20ReferenceConvertible", "convert"]
+- !private ["P10Foundation20ReferenceConvertible", "description"]
+- !private ["P10Foundation20ReferenceConvertible", "representSigned"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSince1970"]
+- !private ["Ps13SignedInteger", "Double"]
+- ["Ps13SignedInteger", "convert"]
+- !private ["Ps13SignedInteger", "description"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps13SignedInteger", "max"]
+- !private ["Ps13SignedInteger", "min"]
+- !private ["Ps13SignedInteger", "representSigned"]
+- !private ["Ps12SignedNumber", "Double"]
+- !private ["Ps12SignedNumber", "Int"]
+- !private ["Ps12SignedNumber", "UInt"]
+- ["Ps12SignedNumber", "convert"]
+- !private ["Ps12SignedNumber", "description"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "max"]
+- !private ["Ps12SignedNumber", "min"]
+- !private ["Ps12SignedNumber", "representSigned"]
+- !private ["Ps12SignedNumber", "representUnsigned"]
+- !private ["P10KittenCore17SimpleConvertible", "Double"]
+- !private ["P10KittenCore17SimpleConvertible", "Int"]
+- !private ["P10KittenCore17SimpleConvertible", "UInt"]
+- !private ["P10KittenCore17SimpleConvertible", "_getBuiltinLogicValue"]
+- ["P10KittenCore17SimpleConvertible", "convert"]
+- !private ["P10KittenCore17SimpleConvertible", "description"]
+- !private ["P10KittenCore17SimpleConvertible", "init"]
+- !private ["P10KittenCore17SimpleConvertible", "max"]
+- !private ["P10KittenCore17SimpleConvertible", "min"]
+- !private ["P10KittenCore17SimpleConvertible", "representSigned"]
+- !private ["P10KittenCore17SimpleConvertible", "representUnsigned"]
+- !private ["P10KittenCore17SimpleConvertible", "timeIntervalSince1970"]
+- ["P10KittenCore17SimpleConvertible", ""]
+- !private ["Ps10Strideable", "Double"]
+- !private ["Ps10Strideable", "Int"]
+- !private ["Ps10Strideable", "UInt"]
+- ["Ps10Strideable", "convert"]
+- !private ["Ps10Strideable", "description"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "max"]
+- !private ["Ps10Strideable", "min"]
+- !private ["Ps10Strideable", "representSigned"]
+- !private ["Ps10Strideable", "representUnsigned"]
+- !private ["Su", "Double"]
+- ["Su", "convert"]
+- ["Su", "deinit"]
+- !private ["Su", "description"]
+- !private ["Su", "init"]
+- !private ["Su", "representUnsigned"]
+- !private ["Vs6UInt16", "Double"]
+- ["Vs6UInt16", "convert"]
+- ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt16", "description"]
+- !private ["Vs6UInt16", "representUnsigned"]
+- !private ["Vs6UInt32", "Double"]
+- ["Vs6UInt32", "convert"]
+- ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt32", "description"]
+- !private ["Vs6UInt32", "representUnsigned"]
+- !private ["Vs6UInt64", "Double"]
+- ["Vs6UInt64", "convert"]
+- ["Vs6UInt64", "deinit"]
+- !private ["Vs6UInt64", "description"]
+- !private ["Vs6UInt64", "init"]
+- !private ["Vs6UInt64", "representUnsigned"]
+- !private ["Vs5UInt8", "Double"]
+- ["Vs5UInt8", "convert"]
+- ["Vs5UInt8", "deinit"]
+- !private ["Vs5UInt8", "description"]
+- !private ["Vs5UInt8", "representUnsigned"]
+- !private ["Ps15UnsignedInteger", "Double"]
+- ["Ps15UnsignedInteger", "convert"]
+- !private ["Ps15UnsignedInteger", "description"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps15UnsignedInteger", "representUnsigned"]
+- !private ["P10Foundation13_BitShiftable", "Double"]
+- ["P10Foundation13_BitShiftable", "convert"]
+- !private ["P10Foundation13_BitShiftable", "description"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation13_BitShiftable", "max"]
+- !private ["P10Foundation13_BitShiftable", "min"]
+- !private ["P10Foundation13_BitShiftable", "representSigned"]
+- !private ["P10Foundation13_BitShiftable", "representUnsigned"]
+- !private ["P10Foundation13_CFBridgeable", "Int"]
+- !private ["P10Foundation13_CFBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation13_CFBridgeable", "convert"]
+- !private ["P10Foundation13_CFBridgeable", "description"]
+- !private ["P10Foundation13_CFBridgeable", "representSigned"]
+- !private ["P10Foundation13_CFBridgeable", "timeIntervalSince1970"]
+- !private ["Ps15_CVarArgAligned", "Double"]
+- !private ["Ps15_CVarArgAligned", "Int"]
+- !private ["Ps15_CVarArgAligned", "UInt"]
+- ["Ps15_CVarArgAligned", "convert"]
+- !private ["Ps15_CVarArgAligned", "description"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps15_CVarArgAligned", "max"]
+- !private ["Ps15_CVarArgAligned", "min"]
+- !private ["Ps15_CVarArgAligned", "representSigned"]
+- !private ["Ps15_CVarArgAligned", "representUnsigned"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Int"]
+- !private ["Ps22_CVarArgPassedAsDouble", "UInt"]
+- ["Ps22_CVarArgPassedAsDouble", "convert"]
+- !private ["Ps22_CVarArgPassedAsDouble", "description"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "representSigned"]
+- !private ["Ps22_CVarArgPassedAsDouble", "representUnsigned"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "Double"]
+- ["Ps28_DisallowMixedSignArithmetic", "convert"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "description"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "representUnsigned"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "Int"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "UInt"]
+- ["Ps33_ExpressibleByBuiltinFloatLiteral", "convert"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "description"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "representSigned"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "representUnsigned"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Double"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Int"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "UInt"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "convert"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "description"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "max"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "min"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "representSigned"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "representUnsigned"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "UInt"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "convert"]
+- !private ["Ps9_Hashable", "description"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "max"]
+- !private ["Ps9_Hashable", "min"]
+- !private ["Ps9_Hashable", "representSigned"]
+- !private ["Ps9_Hashable", "representUnsigned"]
+- !private ["Ps9_Hashable", "timeIntervalSince1970"]
+- !private ["Ps14_Incrementable", "Double"]
+- ["Ps14_Incrementable", "convert"]
+- !private ["Ps14_Incrementable", "description"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps14_Incrementable", "max"]
+- !private ["Ps14_Incrementable", "min"]
+- !private ["Ps14_Incrementable", "representSigned"]
+- !private ["Ps14_Incrementable", "representUnsigned"]
+- !private ["Ps8_Integer", "Double"]
+- ["Ps8_Integer", "convert"]
+- !private ["Ps8_Integer", "description"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps8_Integer", "max"]
+- !private ["Ps8_Integer", "min"]
+- !private ["Ps8_Integer", "representSigned"]
+- !private ["Ps8_Integer", "representUnsigned"]
+- !private ["Ps18_IntegerArithmetic", "Double"]
+- ["Ps18_IntegerArithmetic", "convert"]
+- !private ["Ps18_IntegerArithmetic", "description"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps18_IntegerArithmetic", "max"]
+- !private ["Ps18_IntegerArithmetic", "min"]
+- !private ["Ps18_IntegerArithmetic", "representSigned"]
+- !private ["Ps18_IntegerArithmetic", "representUnsigned"]
+- !private ["P10Foundation12_IntegerLike", "Double"]
+- ["P10Foundation12_IntegerLike", "convert"]
+- !private ["P10Foundation12_IntegerLike", "description"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- !private ["P10Foundation12_IntegerLike", "max"]
+- !private ["P10Foundation12_IntegerLike", "min"]
+- !private ["P10Foundation12_IntegerLike", "representSigned"]
+- !private ["P10Foundation12_IntegerLike", "representUnsigned"]
+- !private ["P10Foundation13_NSBridgeable", "Int"]
+- ["P10Foundation13_NSBridgeable", "convert"]
+- !private ["P10Foundation13_NSBridgeable", "description"]
+- !private ["P10Foundation13_NSBridgeable", "representSigned"]
+- !private ["P10Foundation13_NSBridgeable", "timeIntervalSince1970"]
+- !private ["P10Foundation17_ObjectBridgeable", "Double"]
+- !private ["P10Foundation17_ObjectBridgeable", "Int"]
+- !private ["P10Foundation17_ObjectBridgeable", "UInt"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation17_ObjectBridgeable", "convert"]
+- !private ["P10Foundation17_ObjectBridgeable", "description"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "max"]
+- !private ["P10Foundation17_ObjectBridgeable", "min"]
+- !private ["P10Foundation17_ObjectBridgeable", "representSigned"]
+- !private ["P10Foundation17_ObjectBridgeable", "representUnsigned"]
+- !private ["P10Foundation17_ObjectBridgeable", "timeIntervalSince1970"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Double"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Int"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "UInt"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- ["P10Foundation21_ObjectTypeBridgeable", "convert"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "description"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "max"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "min"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "representSigned"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "representUnsigned"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "timeIntervalSince1970"]
+- !private ["Ps14_SignedInteger", "Double"]
+- ["Ps14_SignedInteger", "convert"]
+- !private ["Ps14_SignedInteger", "description"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps14_SignedInteger", "max"]
+- !private ["Ps14_SignedInteger", "min"]
+- !private ["Ps14_SignedInteger", "representSigned"]
+- !private ["Ps11_Strideable", "Double"]
+- !private ["Ps11_Strideable", "Int"]
+- !private ["Ps11_Strideable", "UInt"]
+- ["Ps11_Strideable", "convert"]
+- !private ["Ps11_Strideable", "description"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "max"]
+- !private ["Ps11_Strideable", "min"]
+- !private ["Ps11_Strideable", "representSigned"]
+- !private ["Ps11_Strideable", "representUnsigned"]
+- !private ["Ps14_StringElement", "Double"]
+- ["Ps14_StringElement", "convert"]
+- !private ["Ps14_StringElement", "description"]
+- !private ["Ps14_StringElement", "representUnsigned"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps19BinaryFloatingPoint"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "P10KittenCore11Convertible"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "P10Foundation20ReferenceConvertible"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "P10KittenCore17SimpleConvertible"
+- "Ps10Strideable"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Ps15UnsignedInteger"
+- "P10Foundation13_BitShiftable"
+- "P10Foundation13_CFBridgeable"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps33_ExpressibleByBuiltinFloatLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "P10Foundation12_IntegerLike"
+- "P10Foundation13_NSBridgeable"
+- "P10Foundation17_ObjectBridgeable"
+- "P10Foundation21_ObjectTypeBridgeable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "8c33653baa14435d542df4bd74d2a7aa"

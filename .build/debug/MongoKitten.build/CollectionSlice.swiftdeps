@@ -1,0 +1,327 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CollectionSlice"
+provides-nominal:
+- "C11MongoKitten15CollectionSlice"
+provides-member:
+- ["C11MongoKitten15CollectionSlice", ""]
+depends-top-level:
+- !private "??"
+- "AnyIterator"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Collation"
+- "Collection"
+- "CollectionQueryable"
+- "CollectionSlice"
+- "Cursor"
+- !private "Dictionary"
+- "DispatchTimeInterval"
+- "Document"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "IteratorProtocol"
+- "Projection"
+- "Query"
+- "ReadConcern"
+- "Sequence"
+- "Sort"
+- "Void"
+- "WriteConcern"
+depends-member:
+- !private ["Vs11AnyIterator", "init"]
+- !private ["Ps9AnyObject", "AnyIterator"]
+- !private ["Ps9AnyObject", "CollectionSlice"]
+- !private ["Ps9AnyObject", "Cursor"]
+- ["Ps9AnyObject", "_copyContents"]
+- ["Ps9AnyObject", "_copyToContiguousArray"]
+- ["Ps9AnyObject", "_customContainsEquatableElement"]
+- ["Ps9AnyObject", "_preprocessingPass"]
+- ["Ps9AnyObject", "collation"]
+- ["Ps9AnyObject", "collection"]
+- ["Ps9AnyObject", "collectionName"]
+- !private ["Ps9AnyObject", "count"]
+- !private ["Ps9AnyObject", "cursor"]
+- ["Ps9AnyObject", "database"]
+- ["Ps9AnyObject", "drop"]
+- ["Ps9AnyObject", "dropFirst"]
+- ["Ps9AnyObject", "dropLast"]
+- ["Ps9AnyObject", "filter"]
+- !private ["Ps9AnyObject", "find"]
+- !private ["Ps9AnyObject", "findOne"]
+- !private ["Ps9AnyObject", "flatMap"]
+- ["Ps9AnyObject", "forEach"]
+- ["Ps9AnyObject", "fullCollectionName"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "limit"]
+- ["Ps9AnyObject", "makeIterator"]
+- ["Ps9AnyObject", "map"]
+- ["Ps9AnyObject", "next"]
+- ["Ps9AnyObject", "prefix"]
+- !private ["Ps9AnyObject", "projection"]
+- ["Ps9AnyObject", "readConcern"]
+- !private ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "skip"]
+- !private ["Ps9AnyObject", "sort"]
+- ["Ps9AnyObject", "split"]
+- ["Ps9AnyObject", "suffix"]
+- ["Ps9AnyObject", "timeout"]
+- !private ["Ps9AnyObject", "transform"]
+- ["Ps9AnyObject", "underestimatedCount"]
+- !private ["Ps9AnyObject", "update"]
+- ["Ps9AnyObject", "writeConcern"]
+- ["Ps9AnyObject", ""]
+- !private ["C11MongoKitten10Collection", "collation"]
+- !private ["C11MongoKitten10Collection", "deinit"]
+- !private ["C11MongoKitten10Collection", "readConcern"]
+- !private ["C11MongoKitten10Collection", "remove"]
+- !private ["C11MongoKitten10Collection", "writeConcern"]
+- !private ["P11MongoKitten19CollectionQueryable", "AnyIterator"]
+- !private ["P11MongoKitten19CollectionQueryable", "CollectionSlice"]
+- !private ["P11MongoKitten19CollectionQueryable", "Cursor"]
+- ["P11MongoKitten19CollectionQueryable", "_copyContents"]
+- ["P11MongoKitten19CollectionQueryable", "_copyToContiguousArray"]
+- ["P11MongoKitten19CollectionQueryable", "_customContainsEquatableElement"]
+- ["P11MongoKitten19CollectionQueryable", "_preprocessingPass"]
+- ["P11MongoKitten19CollectionQueryable", "collation"]
+- ["P11MongoKitten19CollectionQueryable", "collection"]
+- ["P11MongoKitten19CollectionQueryable", "collectionName"]
+- !private ["P11MongoKitten19CollectionQueryable", "count"]
+- !private ["P11MongoKitten19CollectionQueryable", "cursor"]
+- ["P11MongoKitten19CollectionQueryable", "database"]
+- ["P11MongoKitten19CollectionQueryable", "drop"]
+- ["P11MongoKitten19CollectionQueryable", "dropFirst"]
+- ["P11MongoKitten19CollectionQueryable", "dropLast"]
+- ["P11MongoKitten19CollectionQueryable", "filter"]
+- !private ["P11MongoKitten19CollectionQueryable", "find"]
+- !private ["P11MongoKitten19CollectionQueryable", "findOne"]
+- !private ["P11MongoKitten19CollectionQueryable", "flatMap"]
+- ["P11MongoKitten19CollectionQueryable", "forEach"]
+- ["P11MongoKitten19CollectionQueryable", "fullCollectionName"]
+- !private ["P11MongoKitten19CollectionQueryable", "init"]
+- !private ["P11MongoKitten19CollectionQueryable", "limit"]
+- ["P11MongoKitten19CollectionQueryable", "makeIterator"]
+- ["P11MongoKitten19CollectionQueryable", "map"]
+- ["P11MongoKitten19CollectionQueryable", "next"]
+- ["P11MongoKitten19CollectionQueryable", "prefix"]
+- !private ["P11MongoKitten19CollectionQueryable", "projection"]
+- ["P11MongoKitten19CollectionQueryable", "readConcern"]
+- !private ["P11MongoKitten19CollectionQueryable", "remove"]
+- !private ["P11MongoKitten19CollectionQueryable", "skip"]
+- !private ["P11MongoKitten19CollectionQueryable", "sort"]
+- ["P11MongoKitten19CollectionQueryable", "split"]
+- ["P11MongoKitten19CollectionQueryable", "suffix"]
+- ["P11MongoKitten19CollectionQueryable", "timeout"]
+- ["P11MongoKitten19CollectionQueryable", "underestimatedCount"]
+- !private ["P11MongoKitten19CollectionQueryable", "update"]
+- ["P11MongoKitten19CollectionQueryable", "writeConcern"]
+- ["P11MongoKitten19CollectionQueryable", ""]
+- ["C11MongoKitten15CollectionSlice", "AnyIterator"]
+- ["C11MongoKitten15CollectionSlice", "Bool"]
+- ["C11MongoKitten15CollectionSlice", "Collation"]
+- ["C11MongoKitten15CollectionSlice", "Collection"]
+- ["C11MongoKitten15CollectionSlice", "CollectionSlice"]
+- ["C11MongoKitten15CollectionSlice", "Cursor"]
+- ["C11MongoKitten15CollectionSlice", "DispatchTimeInterval"]
+- ["C11MongoKitten15CollectionSlice", "Document"]
+- ["C11MongoKitten15CollectionSlice", "Element"]
+- ["C11MongoKitten15CollectionSlice", "Int"]
+- ["C11MongoKitten15CollectionSlice", "Iterator"]
+- ["C11MongoKitten15CollectionSlice", "Projection"]
+- ["C11MongoKitten15CollectionSlice", "Query"]
+- ["C11MongoKitten15CollectionSlice", "ReadConcern"]
+- ["C11MongoKitten15CollectionSlice", "Sort"]
+- ["C11MongoKitten15CollectionSlice", "SubSequence"]
+- ["C11MongoKitten15CollectionSlice", "Void"]
+- ["C11MongoKitten15CollectionSlice", "WriteConcern"]
+- ["C11MongoKitten15CollectionSlice", "_copyContents"]
+- ["C11MongoKitten15CollectionSlice", "_copyToContiguousArray"]
+- ["C11MongoKitten15CollectionSlice", "_customContainsEquatableElement"]
+- ["C11MongoKitten15CollectionSlice", "_preprocessingPass"]
+- ["C11MongoKitten15CollectionSlice", "collation"]
+- ["C11MongoKitten15CollectionSlice", "collection"]
+- ["C11MongoKitten15CollectionSlice", "collectionName"]
+- ["C11MongoKitten15CollectionSlice", "count"]
+- ["C11MongoKitten15CollectionSlice", "cursor"]
+- ["C11MongoKitten15CollectionSlice", "database"]
+- ["C11MongoKitten15CollectionSlice", "deinit"]
+- ["C11MongoKitten15CollectionSlice", "drop"]
+- ["C11MongoKitten15CollectionSlice", "dropFirst"]
+- ["C11MongoKitten15CollectionSlice", "dropLast"]
+- ["C11MongoKitten15CollectionSlice", "filter"]
+- ["C11MongoKitten15CollectionSlice", "find"]
+- ["C11MongoKitten15CollectionSlice", "findOne"]
+- ["C11MongoKitten15CollectionSlice", "first"]
+- ["C11MongoKitten15CollectionSlice", "flatMap"]
+- ["C11MongoKitten15CollectionSlice", "forEach"]
+- ["C11MongoKitten15CollectionSlice", "fullCollectionName"]
+- ["C11MongoKitten15CollectionSlice", "init"]
+- ["C11MongoKitten15CollectionSlice", "limit"]
+- ["C11MongoKitten15CollectionSlice", "makeIterator"]
+- ["C11MongoKitten15CollectionSlice", "map"]
+- ["C11MongoKitten15CollectionSlice", "next"]
+- ["C11MongoKitten15CollectionSlice", "prefix"]
+- ["C11MongoKitten15CollectionSlice", "projection"]
+- ["C11MongoKitten15CollectionSlice", "readConcern"]
+- ["C11MongoKitten15CollectionSlice", "remove"]
+- ["C11MongoKitten15CollectionSlice", "reset"]
+- ["C11MongoKitten15CollectionSlice", "skip"]
+- ["C11MongoKitten15CollectionSlice", "sort"]
+- ["C11MongoKitten15CollectionSlice", "split"]
+- ["C11MongoKitten15CollectionSlice", "suffix"]
+- ["C11MongoKitten15CollectionSlice", "timeout"]
+- ["C11MongoKitten15CollectionSlice", "underestimatedCount"]
+- ["C11MongoKitten15CollectionSlice", "update"]
+- ["C11MongoKitten15CollectionSlice", "writeConcern"]
+- !private ["P10KittenCore11Convertible", "init"]
+- !private ["C11MongoKitten6Cursor", "collection"]
+- !private ["C11MongoKitten6Cursor", "deinit"]
+- !private ["C11MongoKitten6Cursor", "flatMap"]
+- !private ["C11MongoKitten6Cursor", "forEach"]
+- !private ["C11MongoKitten6Cursor", "init"]
+- !private ["C11MongoKitten6Cursor", "next"]
+- !private ["C11MongoKitten6Cursor", "transform"]
+- !private ["Ps23CustomStringConvertible", "collation"]
+- !private ["Ps23CustomStringConvertible", "collection"]
+- !private ["Ps23CustomStringConvertible", "flatMap"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "next"]
+- !private ["Ps23CustomStringConvertible", "readConcern"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- !private ["Ps23CustomStringConvertible", "writeConcern"]
+- !private ["Ps16IteratorProtocol", "AnyIterator"]
+- !private ["Ps16IteratorProtocol", "CollectionSlice"]
+- !private ["Ps16IteratorProtocol", "Cursor"]
+- ["Ps16IteratorProtocol", "_copyContents"]
+- ["Ps16IteratorProtocol", "_copyToContiguousArray"]
+- ["Ps16IteratorProtocol", "_customContainsEquatableElement"]
+- ["Ps16IteratorProtocol", "_preprocessingPass"]
+- ["Ps16IteratorProtocol", "collation"]
+- ["Ps16IteratorProtocol", "collection"]
+- ["Ps16IteratorProtocol", "collectionName"]
+- !private ["Ps16IteratorProtocol", "count"]
+- !private ["Ps16IteratorProtocol", "cursor"]
+- ["Ps16IteratorProtocol", "database"]
+- ["Ps16IteratorProtocol", "drop"]
+- ["Ps16IteratorProtocol", "dropFirst"]
+- ["Ps16IteratorProtocol", "dropLast"]
+- ["Ps16IteratorProtocol", "filter"]
+- !private ["Ps16IteratorProtocol", "find"]
+- !private ["Ps16IteratorProtocol", "findOne"]
+- !private ["Ps16IteratorProtocol", "flatMap"]
+- ["Ps16IteratorProtocol", "forEach"]
+- ["Ps16IteratorProtocol", "fullCollectionName"]
+- !private ["Ps16IteratorProtocol", "init"]
+- !private ["Ps16IteratorProtocol", "limit"]
+- ["Ps16IteratorProtocol", "makeIterator"]
+- ["Ps16IteratorProtocol", "map"]
+- ["Ps16IteratorProtocol", "next"]
+- ["Ps16IteratorProtocol", "prefix"]
+- !private ["Ps16IteratorProtocol", "projection"]
+- ["Ps16IteratorProtocol", "readConcern"]
+- !private ["Ps16IteratorProtocol", "skip"]
+- !private ["Ps16IteratorProtocol", "sort"]
+- ["Ps16IteratorProtocol", "split"]
+- ["Ps16IteratorProtocol", "suffix"]
+- ["Ps16IteratorProtocol", "timeout"]
+- !private ["Ps16IteratorProtocol", "transform"]
+- ["Ps16IteratorProtocol", "underestimatedCount"]
+- !private ["Ps16IteratorProtocol", "update"]
+- ["Ps16IteratorProtocol", "writeConcern"]
+- ["Ps16IteratorProtocol", ""]
+- !private ["V11MongoKitten5Query", "deinit"]
+- !private ["Ps8Sequence", "AnyIterator"]
+- !private ["Ps8Sequence", "CollectionSlice"]
+- !private ["Ps8Sequence", "Cursor"]
+- ["Ps8Sequence", "_copyContents"]
+- ["Ps8Sequence", "_copyToContiguousArray"]
+- ["Ps8Sequence", "_customContainsEquatableElement"]
+- ["Ps8Sequence", "_preprocessingPass"]
+- ["Ps8Sequence", "collation"]
+- ["Ps8Sequence", "collection"]
+- ["Ps8Sequence", "collectionName"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "cursor"]
+- ["Ps8Sequence", "database"]
+- ["Ps8Sequence", "drop"]
+- ["Ps8Sequence", "dropFirst"]
+- ["Ps8Sequence", "dropLast"]
+- ["Ps8Sequence", "filter"]
+- !private ["Ps8Sequence", "find"]
+- !private ["Ps8Sequence", "findOne"]
+- !private ["Ps8Sequence", "flatMap"]
+- ["Ps8Sequence", "forEach"]
+- ["Ps8Sequence", "fullCollectionName"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "limit"]
+- ["Ps8Sequence", "makeIterator"]
+- ["Ps8Sequence", "map"]
+- ["Ps8Sequence", "next"]
+- ["Ps8Sequence", "prefix"]
+- !private ["Ps8Sequence", "projection"]
+- ["Ps8Sequence", "readConcern"]
+- !private ["Ps8Sequence", "skip"]
+- !private ["Ps8Sequence", "sort"]
+- ["Ps8Sequence", "split"]
+- ["Ps8Sequence", "suffix"]
+- ["Ps8Sequence", "timeout"]
+- !private ["Ps8Sequence", "transform"]
+- ["Ps8Sequence", "underestimatedCount"]
+- !private ["Ps8Sequence", "update"]
+- ["Ps8Sequence", "writeConcern"]
+- ["Ps8Sequence", ""]
+- !private ["P10KittenCore20SerializableSequence", "init"]
+depends-nominal:
+- !private "Vs11AnyIterator"
+- "Ps9AnyObject"
+- !private "C11MongoKitten10Collection"
+- "P11MongoKitten19CollectionQueryable"
+- "C11MongoKitten15CollectionSlice"
+- !private "P10KittenCore11Convertible"
+- !private "C11MongoKitten6Cursor"
+- !private "Ps23CustomStringConvertible"
+- "Ps16IteratorProtocol"
+- !private "V11MongoKitten5Query"
+- "Ps8Sequence"
+- !private "P10KittenCore20SerializableSequence"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/shanmukha/.build/debug/BSON.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/ExtendedJSON.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/GeoJSON.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/KittenCore.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Cheetah.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Schrodinger.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/MongoSocket.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CryptoSwift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/checkouts/KittenCTLS.git--3049334175900397724/module.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "cd1358809e5d7f74bdffd94954f505cb"

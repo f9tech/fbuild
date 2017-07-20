@@ -1,0 +1,117 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Hash"
+- "Digest"
+provides-nominal:
+- "V11CryptoSwift6Digest"
+provides-member:
+- ["V11CryptoSwift6Digest", ""]
+depends-top-level:
+- "Array"
+- "Digest"
+- "Hash"
+- !private "MD5"
+- !private "SHA1"
+- "SHA2"
+- "SHA3"
+- "UInt8"
+depends-member:
+- ["Ps9AnyObject", "Variant"]
+- !private ["Ps9AnyObject", "calculate"]
+- !private ["Ps9AnyObject", "init"]
+- ["V11CryptoSwift6Digest", "Array"]
+- !private ["V11CryptoSwift6Digest", "MD5"]
+- !private ["V11CryptoSwift6Digest", "SHA1"]
+- ["V11CryptoSwift6Digest", "SHA2"]
+- ["V11CryptoSwift6Digest", "SHA3"]
+- ["V11CryptoSwift6Digest", "UInt8"]
+- ["V11CryptoSwift6Digest", "init"]
+- ["V11CryptoSwift6Digest", "md5"]
+- ["V11CryptoSwift6Digest", "sha1"]
+- ["V11CryptoSwift6Digest", "sha2"]
+- ["V11CryptoSwift6Digest", "sha224"]
+- ["V11CryptoSwift6Digest", "sha256"]
+- ["V11CryptoSwift6Digest", "sha3"]
+- ["V11CryptoSwift6Digest", "sha384"]
+- ["V11CryptoSwift6Digest", "sha512"]
+- ["P11CryptoSwift10DigestType", "Variant"]
+- !private ["P11CryptoSwift10DigestType", "calculate"]
+- !private ["P11CryptoSwift10DigestType", "init"]
+- !private ["Ps9Equatable", "sha224"]
+- !private ["Ps9Equatable", "sha256"]
+- !private ["Ps9Equatable", "sha384"]
+- !private ["Ps9Equatable", "sha512"]
+- !private ["Ps8Hashable", "sha224"]
+- !private ["Ps8Hashable", "sha256"]
+- !private ["Ps8Hashable", "sha384"]
+- !private ["Ps8Hashable", "sha512"]
+- !private ["C11CryptoSwift3MD5", "calculate"]
+- !private ["C11CryptoSwift3MD5", "deinit"]
+- !private ["C11CryptoSwift3MD5", "init"]
+- !private ["Ps16RawRepresentable", "sha224"]
+- !private ["Ps16RawRepresentable", "sha256"]
+- !private ["Ps16RawRepresentable", "sha384"]
+- !private ["Ps16RawRepresentable", "sha512"]
+- !private ["C11CryptoSwift4SHA1", "calculate"]
+- !private ["C11CryptoSwift4SHA1", "deinit"]
+- !private ["C11CryptoSwift4SHA1", "init"]
+- ["C11CryptoSwift4SHA2", "Variant"]
+- !private ["C11CryptoSwift4SHA2", "calculate"]
+- !private ["C11CryptoSwift4SHA2", "deinit"]
+- !private ["C11CryptoSwift4SHA2", "init"]
+- ["C11CryptoSwift4SHA3", "Variant"]
+- !private ["C11CryptoSwift4SHA3", "calculate"]
+- !private ["C11CryptoSwift4SHA3", "deinit"]
+- !private ["C11CryptoSwift4SHA3", "init"]
+- ["P11CryptoSwift9Updatable", "Variant"]
+- !private ["P11CryptoSwift9Updatable", "calculate"]
+- !private ["P11CryptoSwift9Updatable", "init"]
+- !private ["OC11CryptoSwift4SHA27Variant", "sha224"]
+- !private ["OC11CryptoSwift4SHA27Variant", "sha256"]
+- !private ["OC11CryptoSwift4SHA27Variant", "sha384"]
+- !private ["OC11CryptoSwift4SHA27Variant", "sha512"]
+- !private ["Ps9_Hashable", "sha224"]
+- !private ["Ps9_Hashable", "sha256"]
+- !private ["Ps9_Hashable", "sha384"]
+- !private ["Ps9_Hashable", "sha512"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V11CryptoSwift6Digest"
+- "P11CryptoSwift10DigestType"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "C11CryptoSwift3MD5"
+- !private "Ps16RawRepresentable"
+- !private "C11CryptoSwift4SHA1"
+- "C11CryptoSwift4SHA2"
+- "C11CryptoSwift4SHA3"
+- "P11CryptoSwift9Updatable"
+- !private "OC11CryptoSwift4SHA27Variant"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "92756821ae188f3a62cdb5f1add18aba"

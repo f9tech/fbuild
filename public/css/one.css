@@ -1,0 +1,198 @@
+/*------------------------------------
+    One color style sheet
+	
+	just replace "82b440" with your custom color
+------------------------------------*/
+#switcher .theme-click {
+	background-color: #82b440;
+}
+section h2 {
+	background: url(../images/heading-icon-two.png) no-repeat left top;
+}
+section h2 span {
+	color: #82b440;
+}
+.top-wrapper {
+	background: #82b440;
+}
+.nav > li > a {
+	border-bottom: dashed 1px #9fdb51;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	color: #82b440;
+}
+.banner-wrapper .fade-carousel .carousel-control span:hover {
+	border: 1px solid #82b440;
+	background: #82b440;
+}
+.banner-wrapper .btn-hero:hover {
+	border: 1px solid #82b440;
+	background: #82b440;
+}
+.header-forms .ui-widget-header {
+	background: #82b440;
+}
+.header-forms .price-range input {
+	color: #82b440;
+}
+.header-forms li .popup form .btn {
+	background: #82b440;
+}
+.header-forms li .popup [type="radio"]:not(:checked) + label:before, .header-forms li .popup [type="radio"]:checked + label:before {
+	border: solid 1px #82b440;
+}
+.header-forms li .popup [type="radio"]:not(:checked) + label:after, .header-forms li .popup [type="radio"]:checked + label:after {
+	color: #82b440;
+}
+.header-forms li .new-account a {
+	border: solid 1px #82b440;
+	color: #82b440;
+}
+.header-forms li .new-account.reg h3 strong {
+	color: #82b440;
+}
+.header-forms .ui-slider .ui-slider-handle {
+	background: url(../images/slider-handle-two.png) no-repeat left center;
+}
+.header-forms li .new-account ul li {
+	background: url(../images/bullet-two.png) no-repeat left 5px;
+}
+.testimonials-wrapper {
+	background: url(../images/testimonials-bg-two.png) repeat left top;
+}
+.testimonials-wrapper h2 {
+	background-image: url(../images/heading-icon-white-two.png);
+}
+.choose-property .nav-tabs li.active a, .choose-property .nav-tabs li.active a:hover, .choose-property .nav-tabs li a:hover {
+	border-top: solid 2px #82b440;
+}
+.choose-property .ui-widget-header {
+	background: #82b440;
+}
+.choose-property .ui-slider .ui-slider-handle {
+	background: url(../images/slider-handle-two.png) no-repeat left center;
+}
+.choose-property .choose-property-form .price-range input {
+	color: #82b440;
+}
+.better-property .item .property-callout .callout-content .price {
+	color: #82b440;
+}
+.better-property .item .property-callout .property-img .sale {
+	background: #82b440;
+}
+.better-property .item .property-callout:hover .callout-content .share-property {
+	background-color: #82b440;
+}
+.better-property .owl-theme .owl-nav div {
+	color: #82b440;
+}
+.satisfied-wrapper .counter:hover .icon.clients {
+	background: url(../images/clients-icon-hover-two.png) no-repeat center center;
+}
+.satisfied-wrapper .counter:hover .icon.apartments {
+	background: url(../images/apartments-icon-hover-two.png) no-repeat center center;
+}
+.satisfied-wrapper .counter:hover .icon.house-villas {
+	background: url(../images/house-villas-icon-hover-two.png) no-repeat center center;
+}
+.satisfied-wrapper .counter:hover .icon.agents {
+	background: url(../images/agents-icon-hover-two.png) no-repeat center center;
+}
+.blog .thumbnail:hover .caption a.readmore {
+	color: #82b440;
+}
+.blog .thumbnail:hover .caption a {
+	color: #82b440;
+}
+.blog .date li {
+	background: #82b440;
+}
+.blog .caption .posted span {
+	color: #82b440;
+}
+.inner-breadcrumb {
+	border-bottom: solid 1px #82b440;
+}
+.inner-wrapper.aboutus .item .team-content h3 {
+	color: #82b440;
+}
+.inner-wrapper.aboutus .owl-theme .owl-nav div  {
+	color: #82b440;
+}
+.cmg-soon .count-down .countdown-row .countdown-amount {
+	color: #82b440;
+}
+.cmg-soon .subscirbe h3 {
+	color: #82b440;
+}
+.cmg-soon .subscirbe .form input.bttn {
+	background: #82b440;
+}
+.not-found a:hover {
+	background: #82b440;
+	border: 1px solid #82b440;
+}
+.property-list .nav-tabs li.active a, .property-list .nav-tabs li.active a:hover, .property-list .nav-tabs li a:hover {
+	border-top: solid 2px #82b440;
+}
+.property-list .ui-widget-header {
+	background: #82b440;
+}
+.property-list .property-list-form .price-range input {
+	color: #82b440;
+}
+.property-list .contact-experts h3 span {
+	color: #82b440;
+}
+.property-list .contact-experts h4 {
+	color: #82b440;
+}
+.property-list .ui-slider .ui-slider-handle {
+	background: url(../images/slider-handle-two.png) no-repeat left center;
+}
+.inner-property-details .table-custom th {
+	color: #82b440;
+}
+.inner-property-details .book:hover {
+	background: #82b440;
+}
+.inner-wrapper .single-post .list-inline li a:hover {
+	background: #82b440;
+}
+.inner-wrapper .single-post .btn-1 {
+	background: #82b440;
+}
+.inner-wrapper .single-post .sidebar h2::after {
+	background-color: #82b440;
+}
+.inner-wrapper .sidebar .tags li:hover {
+	background: #82b440;
+}
+.inner-wrapper .sidebar .download-services a {
+	background: #82b440;
+}
+.gal-item::before {
+	background: rgba(130, 180, 64, 0.8) none repeat scroll 0 0;
+}
+.inner-wrapper.contactus form .btn {
+	background: #82b440;
+}
+.inner-wrapper.contactus [type="radio"]:not(:checked) + label:before, .inner-wrapper.contactus [type="radio"]:checked + label:before {
+	border: solid 1px #82b440;
+}
+.inner-wrapper.contactus [type="radio"]:not(:checked) + label:after, .inner-wrapper.contactus [type="radio"]:checked + label:after {
+	color: #82b440;
+}
+.footer-wrapper h2 {
+	color: #82b440;
+}
+.footer-wrapper .form input.bttn {
+	background: #82b440;
+}
+
+@media (max-width: 767px) {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #82b440;
+}
+}

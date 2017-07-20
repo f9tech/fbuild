@@ -1,0 +1,5 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "3b6e67251caf62d6b37526b3a218bd63"
+build_time: [553760485, 941832000]
+inputs:
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-StencilTemplateEngine.git-4992297838936725130/Sources/KituraStencilTemplateEngine.swift": [553760458, 0]

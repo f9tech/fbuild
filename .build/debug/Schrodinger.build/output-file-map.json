@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Schrodinger.build/master.swiftdeps"
+  },
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Schrodinger.git--6248948284440921839/Sources/Schrodinger.swift": {
+    "dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Schrodinger.build/Schrodinger.d",
+    "object": "/home/sravani/Desktop/shanmukha/.build/debug/Schrodinger.build/Schrodinger.swift.o",
+    "swiftmodule": "/home/sravani/Desktop/shanmukha/.build/debug/Schrodinger.build/Schrodinger~partial.swiftmodule",
+    "swift-dependencies": "/home/sravani/Desktop/shanmukha/.build/debug/Schrodinger.build/Schrodinger.swiftdeps"
+  }
+}

@@ -1,0 +1,57 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RenderingOptions"
+- "NullRenderingOptions"
+- "TemplateEngine"
+provides-nominal:
+- "P20KituraTemplateEngine16RenderingOptions"
+- "V20KituraTemplateEngine20NullRenderingOptions"
+- "P20KituraTemplateEngine14TemplateEngine"
+provides-member:
+- ["P20KituraTemplateEngine16RenderingOptions", ""]
+- ["V20KituraTemplateEngine20NullRenderingOptions", ""]
+- ["P20KituraTemplateEngine14TemplateEngine", ""]
+- ["P20KituraTemplateEngine14TemplateEngine", "render"]
+- ["P20KituraTemplateEngine14TemplateEngine", "render"]
+- ["P20KituraTemplateEngine14TemplateEngine", "setRootPaths"]
+depends-top-level:
+- "NullRenderingOptions"
+- "RenderingOptions"
+- "String"
+- "TemplateEngine"
+depends-member:
+- ["V20KituraTemplateEngine20NullRenderingOptions", "deinit"]
+- ["V20KituraTemplateEngine20NullRenderingOptions", "init"]
+- ["P20KituraTemplateEngine16RenderingOptions", ""]
+- ["P20KituraTemplateEngine14TemplateEngine", "RenderingOptions"]
+- ["P20KituraTemplateEngine14TemplateEngine", "String"]
+- ["P20KituraTemplateEngine14TemplateEngine", "fileExtension"]
+- ["P20KituraTemplateEngine14TemplateEngine", "render"]
+- ["P20KituraTemplateEngine14TemplateEngine", "setRootPaths"]
+depends-nominal:
+- "V20KituraTemplateEngine20NullRenderingOptions"
+- "P20KituraTemplateEngine16RenderingOptions"
+- "P20KituraTemplateEngine14TemplateEngine"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "857a2c2bfe406845c55ee85873724a11"

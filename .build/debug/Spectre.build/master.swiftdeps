@@ -1,0 +1,12 @@
+version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
+options: "f057d17a6261b961c733f02cb8bb41c2"
+build_time: [553760465, 477998000]
+inputs:
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Spectre.git-1060345634778751850/Sources/Expectation.swift": [553760454, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Spectre.git-1060345634778751850/Sources/GlobalContext.swift": [553760454, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Spectre.git-1060345634778751850/Sources/Context.swift": [553760454, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Spectre.git-1060345634778751850/Sources/Case.swift": [553760454, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Spectre.git-1060345634778751850/Sources/Reporter.swift": [553760454, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Spectre.git-1060345634778751850/Sources/Reporters.swift": [553760454, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Spectre.git-1060345634778751850/Sources/Global.swift": [553760454, 0]
+  "/home/sravani/Desktop/shanmukha/.build/checkouts/Spectre.git-1060345634778751850/Sources/Failure.swift": [553760454, 0]

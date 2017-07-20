@@ -1,0 +1,141 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TagType"
+- "Tag"
+- "=="
+provides-nominal:
+- "O8Mustache7TagType"
+- "P8Mustache3Tag"
+provides-member:
+- ["O8Mustache7TagType", ""]
+- ["P8Mustache3Tag", ""]
+depends-top-level:
+- "=="
+- "Context"
+- "CustomStringConvertible"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Rendering"
+- "String"
+- "Tag"
+- "TagDelimiterPair"
+- "TagType"
+depends-member:
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps23CustomStringConvertible", "Context"]
+- ["Ps23CustomStringConvertible", "Rendering"]
+- ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "TagDelimiterPair"]
+- ["Ps23CustomStringConvertible", "TagType"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "innerTemplateString"]
+- ["Ps23CustomStringConvertible", "render"]
+- ["Ps23CustomStringConvertible", "tagDelimiterPair"]
+- ["Ps23CustomStringConvertible", "type"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["P8Mustache15MustacheBoxable", "hashValue"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["P8Mustache3Tag", "Context"]
+- ["P8Mustache3Tag", "Rendering"]
+- ["P8Mustache3Tag", "String"]
+- ["P8Mustache3Tag", "TagDelimiterPair"]
+- ["P8Mustache3Tag", "TagType"]
+- ["P8Mustache3Tag", "innerTemplateString"]
+- ["P8Mustache3Tag", "render"]
+- ["P8Mustache3Tag", "tagDelimiterPair"]
+- ["P8Mustache3Tag", "type"]
+- ["O8Mustache7TagType", "=="]
+- ["O8Mustache7TagType", "Section"]
+- ["O8Mustache7TagType", "Variable"]
+- ["O8Mustache7TagType", "_toAnyHashable"]
+- ["O8Mustache7TagType", "deinit"]
+- ["O8Mustache7TagType", "hashValue"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps10MirrorPath"
+- !private "P8Mustache15MustacheBoxable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "P8Mustache3Tag"
+- "O8Mustache7TagType"
+- !private "P10Foundation13_BitShiftable"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/sravani/Desktop/shanmukha/.build/debug/Bridging.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/AssertionReporting.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdbool.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/sravani/Desktop/shanmukha/.build/debug/CHTTPParser.build/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/CoreFoundation/module.modulemap"
+- "/home/sravani/Desktop/swift-3.1.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+interface-hash: "c2acacd39116712d02fe57033ab293af"
