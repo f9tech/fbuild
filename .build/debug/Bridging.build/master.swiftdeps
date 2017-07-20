@@ -1,8 +1,0 @@
-version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
-options: "4927ec897bea3785bb009ef39061db74"
-build_time: [553760465, 275576000]
-inputs:
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/Bridging.git-6648948278404558280/Sources/Bridging/Bridging.swift": [553760457, 0]
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/Bridging.git-6648948278404558280/Sources/Bridging/FoundationAdapterLinux.swift": [553760457, 0]
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/Bridging.git-6648948278404558280/Sources/Bridging/FoundationAdapterNonLinux.swift": [553760457, 0]
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/Bridging.git-6648948278404558280/Sources/Bridging/FoundationAdapterProtocol.swift": [553760457, 0]

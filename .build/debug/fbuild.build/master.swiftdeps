@@ -1,5 +1,0 @@
-version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
-options: "903efd2fd4ad42cc3886deeb6735c2e3"
-build_time: [553841305, 692302000]
-inputs:
-  "/home/sravani/Desktop/shanmukha/Sources/fbuild/main.swift": [553604612, 0]

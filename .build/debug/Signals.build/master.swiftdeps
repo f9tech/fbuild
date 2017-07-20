@@ -1,5 +1,0 @@
-version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
-options: "a8881e49b480437febbdf13f26efad12"
-build_time: [553760463, 631154000]
-inputs:
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/BlueSignals.git-6618121485435319901/Sources/Signals.swift": [553760458, 0]

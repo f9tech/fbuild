@@ -1,5 +1,0 @@
-version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
-options: "e48edcc541c3ec4d263b0ce1d84a90a8"
-build_time: [553760483, 963695000]
-inputs:
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/Kitura-MustacheTemplateEngine.git-1232747710215556533/Sources/KituraMustacheTemplateEngine.swift": [553760458, 0]

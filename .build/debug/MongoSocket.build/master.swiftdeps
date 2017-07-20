@@ -1,6 +1,0 @@
-version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
-options: "b5b881daa203fdef9f50a91b63701694"
-build_time: [553760488, 533178000]
-inputs:
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoSocket/MongoTCP.swift": [553760462, 0]
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/MongoSocket/Socket.swift": [553760462, 0]

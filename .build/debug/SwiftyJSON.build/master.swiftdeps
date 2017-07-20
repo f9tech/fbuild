@@ -1,6 +1,0 @@
-version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
-options: "9f66b5745aa1076e19544670eba82fdd"
-build_time: [553760465, 270263000]
-inputs:
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/SwiftyJSON.git--8703469397050021119/Source/LclJSONSerialization.swift": [553760459, 0]
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/SwiftyJSON.git--8703469397050021119/Source/SwiftyJSON.swift": [553760459, 0]

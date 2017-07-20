@@ -1,7 +1,0 @@
-version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
-options: "eb67c1b44ce8b9c3e71718551a539a8a"
-build_time: [553760488, 511228000]
-inputs:
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/ExtendedJSON/ExtendedJSON+EfficientSerialization.swift": [553760462, 0]
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/ExtendedJSON/ISO8601.swift": [553760462, 0]
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/MongoKitten.git--6952015702313348285/Sources/ExtendedJSON/ExtendedJSON.swift": [553760462, 0]

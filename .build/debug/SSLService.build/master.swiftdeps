@@ -1,5 +1,0 @@
-version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
-options: "eed87e992abc7e6daa1b177fc860c086"
-build_time: [553760481, 83784000]
-inputs:
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/BlueSSLService.git-2142422101881769833/Sources/SSLService.swift": [553760458, 0]

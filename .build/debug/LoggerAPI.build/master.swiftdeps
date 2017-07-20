@@ -1,5 +1,0 @@
-version: "Swift version 3.1.1 (swift-3.1.1-RELEASE)"
-options: "dc284a5221aa4e14a7f3f95d41fcdfc3"
-build_time: [553760463, 628294000]
-inputs:
-  "/home/sravani/Desktop/shanmukha/.build/checkouts/LoggerAPI.git-4790638785758676851/Sources/LoggerAPI/Logger.swift": [553760462, 0]
